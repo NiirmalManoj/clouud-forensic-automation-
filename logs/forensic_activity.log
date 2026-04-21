@@ -1,252 +1,1334 @@
-2026-03-02 12:00:22,435 - INFO - Started forensic scan on: sample_healthcare_data
-2026-03-02 12:00:22,436 - ERROR - Error scanning file sample_healthcare_data\patient1.txt: strptime() argument 1 must be str, not datetime.datetime
-2026-03-02 12:00:22,437 - ERROR - Error scanning file sample_healthcare_data\report1.txt: strptime() argument 1 must be str, not datetime.datetime
-2026-03-02 12:00:22,437 - ERROR - Error scanning file sample_healthcare_data\test.txt: strptime() argument 1 must be str, not datetime.datetime
-2026-03-02 12:06:18,950 - INFO - Started forensic scan on: sample_healthcare_data
-2026-03-02 12:06:18,981 - INFO - Successfully scanned: sample_healthcare_data\patient1.txt
-2026-03-02 12:06:18,982 - INFO - Successfully scanned: sample_healthcare_data\report1.txt
-2026-03-02 12:06:18,982 - INFO - Successfully scanned: sample_healthcare_data\test.txt
-2026-03-02 12:06:18,984 - INFO - Evidence report generated successfully.
-2026-03-02 12:45:27,790 - INFO - === Investigation Started ===
-2026-03-02 12:45:27,790 - INFO - Case ID: HC-2026-001
-2026-03-02 12:45:27,790 - INFO - Scanning Directory: sample_healthcare_data
-2026-03-02 12:45:27,800 - INFO - Scanned Successfully: sample_healthcare_data\EHR\healthcare_dataset.csv
-2026-03-02 12:45:27,802 - INFO - Evidence report generated successfully.
-2026-03-02 12:45:27,802 - INFO - === Investigation Completed Successfully ===
-2026-03-02 12:49:46,095 - INFO - === Investigation Started ===
-2026-03-02 12:49:46,095 - INFO - Case ID: HC-2026-001
-2026-03-02 12:49:46,095 - INFO - Scanning Directory: sample_healthcare_data
-2026-03-02 12:49:46,105 - INFO - Scanned Successfully: sample_healthcare_data\EHR\healthcare_dataset.csv
-2026-03-02 12:49:46,106 - INFO - Evidence report generated successfully.
-2026-03-02 12:49:46,106 - INFO - === Investigation Completed Successfully ===
-2026-03-05 10:51:05,301 - INFO - === Investigation Started ===
-2026-03-05 10:51:05,331 - INFO - Case ID: HC-2026-001
-2026-03-05 10:51:05,331 - INFO - Scanning Directory: sample_healthcare_data
-2026-03-05 10:51:05,346 - INFO - Scanned Successfully: sample_healthcare_data\EHR\healthcare_dataset.csv
-2026-03-05 10:51:05,348 - INFO - Evidence report generated successfully.
-2026-03-05 10:51:05,348 - INFO - === Investigation Completed Successfully ===
-2026-03-06 10:14:04,630 - INFO - === Investigation Started ===
-2026-03-06 10:14:04,630 - INFO - Case ID: HC-2026-001
-2026-03-06 10:14:04,630 - INFO - Scanning Directory: sample_healthcare_data
-2026-03-06 10:14:04,643 - INFO - Scanned Successfully: sample_healthcare_data\EHR\healthcare_dataset.csv
-2026-03-06 10:14:04,645 - INFO - Evidence report generated successfully.
-2026-03-06 10:14:04,645 - INFO - === Investigation Completed Successfully ===
-2026-03-06 14:37:28,084 - INFO - === Investigation Started ===
-2026-03-06 14:37:28,115 - INFO - Case ID: HC-2026-001
-2026-03-06 14:37:28,115 - INFO - Scanning Directory: sample_healthcare_data
-2026-03-06 14:37:28,125 - INFO - Scanned Successfully: sample_healthcare_data\EHR\healthcare_dataset.csv
-2026-03-06 14:37:28,127 - INFO - Evidence report generated successfully.
-2026-03-06 14:37:28,127 - INFO - === Investigation Completed Successfully ===
-2026-03-07 11:27:25,665 - ERROR - Invalid directory path provided.
-2026-03-08 11:59:12,542 - INFO - === Investigation Started ===
-2026-03-08 11:59:12,543 - INFO - Case ID: HC-2026-001
-2026-03-08 11:59:12,543 - INFO - Scanning Directory: sample_healthcare_data
-2026-03-08 11:59:12,569 - INFO - Scanned Successfully: sample_healthcare_data\EHR\healthcare_dataset.csv
-2026-03-08 11:59:12,571 - INFO - Evidence report generated successfully.
-2026-03-08 11:59:12,571 - INFO - === Investigation Completed Successfully ===
-2026-03-08 12:05:21,533 - INFO - === Investigation Started ===
-2026-03-08 12:05:21,533 - INFO - Case ID: HC-2026-001
-2026-03-08 12:05:21,533 - INFO - Scanning Directory: sample_healthcare_data
-2026-03-08 12:05:21,559 - INFO - Scanned Successfully: sample_healthcare_data\EHR\healthcare_dataset.csv
-2026-03-08 12:05:21,579 - INFO - Evidence report generated successfully.
-2026-03-08 12:05:21,579 - INFO - === Investigation Completed Successfully ===
-2026-03-08 12:06:04,230 - INFO - === Investigation Started ===
-2026-03-08 12:06:04,231 - INFO - Case ID: HC-2026-001
-2026-03-08 12:06:04,231 - INFO - Scanning Directory: sample_healthcare_data
-2026-03-08 12:06:04,257 - INFO - Scanned Successfully: sample_healthcare_data\EHR\healthcare_dataset.csv
-2026-03-08 12:06:04,309 - INFO - Evidence report generated successfully.
-2026-03-08 12:06:04,309 - INFO - === Investigation Completed Successfully ===
-2026-03-09 21:14:28,879 - INFO - === Investigation Started ===
-2026-03-09 21:14:28,880 - INFO - Case ID: HC-2026-001
-2026-03-09 21:14:28,880 - INFO - Scanning Directory: sample_healthcare_data
-2026-03-09 21:14:28,905 - INFO - Scanned Successfully: sample_healthcare_data\EHR\healthcare_dataset.csv
-2026-03-09 21:14:28,919 - INFO - Evidence report generated successfully.
-2026-03-09 21:14:28,919 - INFO - === Investigation Completed Successfully ===
-2026-04-07 12:16:16,761 - INFO - === Investigation Started ===
-2026-04-07 12:16:16,792 - INFO - Case ID: HC-2026-001
-2026-04-07 12:16:16,792 - INFO - Scanning Directory: sample_healthcare_data
-2026-04-07 12:16:16,794 - INFO - Scanned Successfully: sample_healthcare_data\billing\billing_invoices_2026.csv
-2026-04-07 12:16:16,794 - INFO - Scanned Successfully: sample_healthcare_data\billing\billing_payment_summary.txt
-2026-04-07 12:16:16,795 - INFO - Scanned Successfully: sample_healthcare_data\EHR\ehr_case_summary_P001.txt
-2026-04-07 12:16:16,795 - INFO - Scanned Successfully: sample_healthcare_data\EHR\ehr_patient_records.csv
-2026-04-07 12:16:16,795 - INFO - Scanned Successfully: sample_healthcare_data\lab reports\lab_report_P003_cardiac.txt
-2026-04-07 12:16:16,796 - INFO - Scanned Successfully: sample_healthcare_data\lab reports\lab_test_results_2026.csv
-2026-04-07 12:16:16,831 - INFO - Evidence report generated successfully.
-2026-04-07 12:16:16,831 - INFO - === Investigation Completed Successfully ===
-2026-04-07 12:17:19,040 - INFO - === Investigation Started ===
-2026-04-07 12:17:19,040 - INFO - Case ID: HC-2026-001
-2026-04-07 12:17:19,041 - INFO - Scanning Directory: sample_healthcare_data
-2026-04-07 12:17:19,042 - INFO - Scanned Successfully: sample_healthcare_data\billing\billing_invoices_2026.csv
-2026-04-07 12:17:19,042 - INFO - Scanned Successfully: sample_healthcare_data\billing\billing_payment_summary.txt
-2026-04-07 12:17:19,043 - INFO - Scanned Successfully: sample_healthcare_data\EHR\ehr_case_summary_P001.txt
-2026-04-07 12:17:19,043 - INFO - Scanned Successfully: sample_healthcare_data\EHR\ehr_patient_records.csv
-2026-04-07 12:17:19,043 - INFO - Scanned Successfully: sample_healthcare_data\lab reports\lab_report_P003_cardiac.txt
-2026-04-07 12:17:19,044 - INFO - Scanned Successfully: sample_healthcare_data\lab reports\lab_test_results_2026.csv
-2026-04-07 12:17:19,073 - INFO - Evidence report generated successfully.
-2026-04-07 12:17:19,073 - INFO - === Investigation Completed Successfully ===
-2026-04-08 11:48:24,870 - INFO - === Investigation Started ===
-2026-04-08 11:48:24,901 - INFO - Case ID: HC-2026-001
-2026-04-08 11:48:24,901 - INFO - Scanning Directory: sample_healthcare_data
-2026-04-08 11:48:24,905 - INFO - Scanned Successfully: sample_healthcare_data\billing\billing_invoices_2026.csv
-2026-04-08 11:48:24,906 - INFO - Scanned Successfully: sample_healthcare_data\billing\billing_payment_summary.txt
-2026-04-08 11:48:24,907 - INFO - Scanned Successfully: sample_healthcare_data\EHR\ehr_case_summary_P001.txt
-2026-04-08 11:48:24,908 - INFO - Scanned Successfully: sample_healthcare_data\EHR\ehr_patient_records.csv
-2026-04-08 11:48:24,909 - INFO - Scanned Successfully: sample_healthcare_data\lab reports\lab_report_P003_cardiac.txt
-2026-04-08 11:48:24,910 - INFO - Scanned Successfully: sample_healthcare_data\lab reports\lab_test_results_2026.csv
-2026-04-08 11:48:24,946 - INFO - Evidence report generated successfully.
-2026-04-08 11:48:24,946 - INFO - === Investigation Completed Successfully ===
-2026-04-10 11:16:39,669 - INFO - === Investigation Started ===
-2026-04-10 11:16:39,699 - INFO - Case ID: HC-2026-001
-2026-04-10 11:16:39,700 - INFO - Scanning Directory: healthcare_data
-2026-04-10 11:16:39,703 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
-2026-04-10 11:16:39,703 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
-2026-04-10 11:16:39,703 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
-2026-04-10 11:16:39,704 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
-2026-04-10 11:16:39,704 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
-2026-04-10 11:16:39,705 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
-2026-04-10 11:16:39,737 - INFO - Evidence report generated successfully.
-2026-04-10 11:16:39,737 - INFO - === Investigation Completed Successfully ===
-2026-04-10 11:35:39,212 - INFO - === Investigation Started ===
-2026-04-10 11:35:39,213 - INFO - Case ID: HC-2026-001
-2026-04-10 11:35:39,213 - INFO - Scanning Directory: healthcare_data
-2026-04-10 11:35:39,214 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
-2026-04-10 11:35:39,214 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
-2026-04-10 11:35:39,215 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
-2026-04-10 11:35:39,215 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
-2026-04-10 11:35:39,216 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
-2026-04-10 11:35:39,216 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
-2026-04-10 11:35:39,217 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
-2026-04-10 11:35:39,217 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
-2026-04-10 11:35:39,218 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
-2026-04-10 11:35:39,218 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
-2026-04-10 11:35:39,260 - INFO - Evidence report generated successfully.
-2026-04-10 11:35:39,260 - INFO - === Investigation Completed Successfully ===
-2026-04-10 11:36:08,615 - INFO - === Investigation Started ===
-2026-04-10 11:36:08,616 - INFO - Case ID: HC-2026-001
-2026-04-10 11:36:08,616 - INFO - Scanning Directory: healthcare_data
-2026-04-10 11:36:08,617 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
-2026-04-10 11:36:08,617 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
-2026-04-10 11:36:08,618 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
-2026-04-10 11:36:08,618 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
-2026-04-10 11:36:08,619 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
-2026-04-10 11:36:08,619 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
-2026-04-10 11:36:08,619 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
-2026-04-10 11:36:08,620 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
-2026-04-10 11:36:08,620 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
-2026-04-10 11:36:08,621 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
-2026-04-10 11:36:08,658 - INFO - Evidence report generated successfully.
-2026-04-10 11:36:08,658 - INFO - === Investigation Completed Successfully ===
-2026-04-10 14:07:27,552 - INFO - === Investigation Started ===
-2026-04-10 14:07:27,553 - INFO - Case ID: HC-2026-001
-2026-04-10 14:07:27,553 - INFO - Scanning Directory: healthcare_data
-2026-04-10 14:07:27,557 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
-2026-04-10 14:07:27,558 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
-2026-04-10 14:07:27,558 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
-2026-04-10 14:07:27,559 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
-2026-04-10 14:07:27,559 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
-2026-04-10 14:07:27,560 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
-2026-04-10 14:07:27,561 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
-2026-04-10 14:07:27,561 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
-2026-04-10 14:07:27,562 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
-2026-04-10 14:07:27,563 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
-2026-04-10 14:07:27,585 - INFO - Evidence report generated successfully.
-2026-04-10 14:07:27,586 - INFO - === Investigation Completed Successfully ===
-2026-04-10 14:11:11,393 - INFO - === Investigation Started ===
-2026-04-10 14:11:11,393 - INFO - Case ID: HC-2026-001
-2026-04-10 14:11:11,394 - INFO - Scanning Directory: healthcare_data
-2026-04-10 14:11:11,396 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
-2026-04-10 14:11:11,396 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
-2026-04-10 14:11:11,396 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
-2026-04-10 14:11:11,397 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
-2026-04-10 14:11:11,397 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
-2026-04-10 14:11:11,397 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
-2026-04-10 14:11:11,398 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
-2026-04-10 14:11:11,398 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
-2026-04-10 14:11:11,398 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
-2026-04-10 14:11:11,398 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
-2026-04-10 14:11:11,425 - INFO - Evidence report generated successfully.
-2026-04-10 14:11:11,425 - INFO - === Investigation Completed Successfully ===
-2026-04-10 14:28:18,665 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-04-10 15:33:23,678 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-04-10 14:28:18,665 - INFO - [33mPress CTRL+C to quit[0m
-2026-04-10 14:28:18,666 - INFO -  * Restarting with stat
-2026-04-10 14:28:19,024 - WARNING -  * Debugger is active!
-2026-04-10 14:28:19,029 - INFO -  * Debugger PIN: 777-836-901
-2026-04-10 14:28:23,296 - INFO - 127.0.0.1 - - [10/Apr/2026 14:28:23] "GET / HTTP/1.1" 200 -
-2026-04-10 14:28:23,338 - INFO - 127.0.0.1 - - [10/Apr/2026 14:28:23] "GET /static/css/styles.css HTTP/1.1" 200 -
-2026-04-10 14:28:23,339 - INFO - 127.0.0.1 - - [10/Apr/2026 14:28:23] "GET /static/js/app.js HTTP/1.1" 200 -
-2026-04-10 14:28:25,004 - INFO - 127.0.0.1 - - [10/Apr/2026 14:28:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-04-10 14:28:26,245 - INFO - === Investigation Started ===
-2026-04-10 14:28:26,245 - INFO - Case ID: HC-2026-001
-2026-04-10 14:28:26,245 - INFO - Scanning Directory: healthcare_data
-2026-04-10 14:28:26,246 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
-2026-04-10 14:28:26,247 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
-2026-04-10 14:28:26,247 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
-2026-04-10 14:28:26,247 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
-2026-04-10 14:28:26,248 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
-2026-04-10 14:28:26,248 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
-2026-04-10 14:28:26,248 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
-2026-04-10 14:28:26,249 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
-2026-04-10 14:28:26,249 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
-2026-04-10 14:28:26,249 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
-2026-04-10 14:28:26,276 - INFO - Evidence report generated successfully.
-2026-04-10 14:28:26,276 - INFO - === Investigation Completed Successfully ===
-2026-04-10 14:28:26,276 - INFO - 127.0.0.1 - - [10/Apr/2026 14:28:26] "POST /api/scan HTTP/1.1" 200 -
-2026-04-10 14:39:00,805 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-04-10 15:33:23,678 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-10 15:33:23,678 - INFO -  * Restarting with stat
+2026-04-10 15:33:24,060 - WARNING -  * Debugger is active!
+2026-04-10 15:33:24,062 - INFO -  * Debugger PIN: 643-587-150
+2026-04-10 15:33:32,535 - INFO - 127.0.0.1 - - [10/Apr/2026 15:33:32] "GET / HTTP/1.1" 200 -
+2026-04-10 15:33:32,594 - INFO - 127.0.0.1 - - [10/Apr/2026 15:33:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-10 15:33:32,594 - INFO - 127.0.0.1 - - [10/Apr/2026 15:33:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-10 15:33:32,708 - INFO - 127.0.0.1 - - [10/Apr/2026 15:33:32] "GET /api/stats HTTP/1.1" 200 -
+2026-04-10 15:33:33,620 - INFO - 127.0.0.1 - - [10/Apr/2026 15:33:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-10 15:33:55,979 - INFO - === Investigation Started ===
+2026-04-10 15:33:55,979 - INFO - Case ID: HC-2026-001
+2026-04-10 15:33:55,979 - INFO - Scanning Directory: healthcare_data
+2026-04-10 15:33:56,011 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-10 15:33:56,012 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-10 15:33:56,013 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-10 15:33:56,014 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-10 15:33:56,015 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-10 15:33:56,016 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-10 15:33:56,017 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-10 15:33:56,018 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-10 15:33:56,019 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-10 15:33:56,020 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-10 15:33:56,080 - INFO - Evidence report generated successfully.
+2026-04-10 15:33:56,080 - INFO - === Investigation Completed Successfully ===
+2026-04-10 15:33:56,081 - INFO - 127.0.0.1 - - [10/Apr/2026 15:33:56] "POST /api/scan HTTP/1.1" 200 -
+2026-04-10 15:33:56,166 - INFO - 127.0.0.1 - - [10/Apr/2026 15:33:56] "GET /api/stats HTTP/1.1" 200 -
+2026-04-10 15:34:00,476 - INFO - 127.0.0.1 - - [10/Apr/2026 15:34:00] "GET /api/logs HTTP/1.1" 200 -
+2026-04-10 15:34:50,569 - INFO - 127.0.0.1 - - [10/Apr/2026 15:34:50] "GET /api/stats HTTP/1.1" 200 -
+2026-04-10 21:31:05,737 - INFO - === Investigation Started ===
+2026-04-10 21:31:05,737 - INFO - Case ID: HC-2026-001
+2026-04-10 21:31:05,737 - INFO - Scanning Directory: healthcare_data
+2026-04-10 21:31:05,741 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-10 21:31:05,742 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-10 21:31:05,743 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-10 21:31:05,743 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-10 21:31:05,744 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-10 21:31:05,745 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-10 21:31:05,745 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-10 21:31:05,746 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-10 21:31:05,746 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-10 21:31:05,747 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-10 21:31:05,775 - INFO - Evidence report generated successfully.
+2026-04-10 21:31:05,775 - INFO - === Investigation Completed Successfully ===
+2026-04-11 15:49:19,521 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-04-10 14:39:00,805 - INFO - [33mPress CTRL+C to quit[0m
-2026-04-10 14:39:00,806 - INFO -  * Restarting with stat
-2026-04-10 14:39:01,373 - WARNING -  * Debugger is active!
-2026-04-10 14:39:01,375 - INFO -  * Debugger PIN: 777-836-901
-2026-04-10 14:59:41,891 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-04-11 15:49:19,521 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-11 15:49:19,522 - INFO -  * Restarting with stat
+2026-04-11 15:49:19,838 - WARNING -  * Debugger is active!
+2026-04-11 15:49:19,840 - INFO -  * Debugger PIN: 643-587-150
+2026-04-11 15:49:22,129 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:22] "GET / HTTP/1.1" 200 -
+2026-04-11 15:49:22,160 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:22] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-04-11 15:49:22,160 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:22] "GET /static/css/styles.css HTTP/1.1" 200 -
+2026-04-11 15:49:22,670 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:22] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 15:49:23,467 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-11 15:49:26,708 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:26] "GET /api/logs HTTP/1.1" 200 -
+2026-04-11 15:49:27,691 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:27] "GET /api/logs HTTP/1.1" 200 -
+2026-04-11 15:49:28,320 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:28] "GET /api/logs HTTP/1.1" 200 -
+2026-04-11 15:49:28,455 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:28] "GET /api/logs HTTP/1.1" 200 -
+2026-04-11 15:49:30,177 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:30] "GET /api/logs HTTP/1.1" 200 -
+2026-04-11 15:49:30,537 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:30] "GET /api/logs HTTP/1.1" 200 -
+2026-04-11 15:49:30,702 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:30] "GET /api/logs HTTP/1.1" 200 -
+2026-04-11 15:49:30,861 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:30] "GET /api/logs HTTP/1.1" 200 -
+2026-04-11 15:49:30,997 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:30] "GET /api/logs HTTP/1.1" 200 -
+2026-04-11 15:49:31,281 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:31] "GET /api/logs HTTP/1.1" 200 -
+2026-04-11 15:49:33,230 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:33] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 15:49:35,054 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:35] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 15:49:35,059 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:35] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 15:49:37,120 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:37] "POST /api/clear-activity HTTP/1.1" 200 -
+2026-04-11 15:49:37,125 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:37] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 15:49:37,126 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:37] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 15:49:37,130 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:37] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 15:49:40,596 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:40] "GET /api/download-csv HTTP/1.1" 200 -
+2026-04-11 15:49:45,169 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:45] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 15:49:47,598 - INFO - === Investigation Started ===
+2026-04-11 15:49:47,598 - INFO - Case ID: HC-2026-001
+2026-04-11 15:49:47,598 - INFO - Scanning Directory: healthcare_data
+2026-04-11 15:49:47,599 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-11 15:49:47,600 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-11 15:49:47,600 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-11 15:49:47,600 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-11 15:49:47,601 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-11 15:49:47,601 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-11 15:49:47,602 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-11 15:49:47,602 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-11 15:49:47,603 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-11 15:49:47,603 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-11 15:49:47,632 - INFO - Evidence report generated successfully.
+2026-04-11 15:49:47,632 - INFO - === Investigation Completed Successfully ===
+2026-04-11 15:49:47,633 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:47] "POST /api/scan HTTP/1.1" 200 -
+2026-04-11 15:49:47,665 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:47] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 15:49:53,061 - INFO - 127.0.0.1 - - [11/Apr/2026 15:49:53] "GET /api/download-csv HTTP/1.1" 200 -
+2026-04-11 15:50:26,663 - INFO - 127.0.0.1 - - [11/Apr/2026 15:50:26] "GET /api/download-report HTTP/1.1" 200 -
+2026-04-11 15:50:40,637 - INFO - 127.0.0.1 - - [11/Apr/2026 15:50:40] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 15:50:40,642 - INFO - 127.0.0.1 - - [11/Apr/2026 15:50:40] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 15:50:43,663 - INFO - 127.0.0.1 - - [11/Apr/2026 15:50:43] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 15:50:51,698 - INFO - 127.0.0.1 - - [11/Apr/2026 15:50:51] "[36mGET /api/download-report HTTP/1.1[0m" 304 -
+2026-04-11 15:51:42,572 - INFO - 127.0.0.1 - - [11/Apr/2026 15:51:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 15:51:42,581 - INFO - 127.0.0.1 - - [11/Apr/2026 15:51:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 15:51:43,437 - INFO - 127.0.0.1 - - [11/Apr/2026 15:51:43] "GET /api/logs HTTP/1.1" 200 -
+2026-04-11 15:51:44,389 - INFO - 127.0.0.1 - - [11/Apr/2026 15:51:44] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:26:46,718 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-04-10 14:59:41,892 - INFO - [33mPress CTRL+C to quit[0m
-2026-04-10 14:59:41,893 - INFO -  * Restarting with stat
-2026-04-10 14:59:42,439 - WARNING -  * Debugger is active!
-2026-04-10 14:59:42,440 - INFO -  * Debugger PIN: 777-836-901
-2026-04-10 15:03:32,726 - INFO - 127.0.0.1 - - [10/Apr/2026 15:03:32] "GET / HTTP/1.1" 200 -
-2026-04-10 15:03:32,733 - INFO - 127.0.0.1 - - [10/Apr/2026 15:03:32] "GET /api/stats HTTP/1.1" 200 -
-2026-04-10 15:03:32,740 - INFO - === Investigation Started ===
-2026-04-10 15:03:32,740 - INFO - Case ID: HC-2026-001
-2026-04-10 15:03:32,740 - INFO - Scanning Directory: healthcare_data
-2026-04-10 15:03:32,741 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
-2026-04-10 15:03:32,742 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
-2026-04-10 15:03:32,742 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
-2026-04-10 15:03:32,743 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
-2026-04-10 15:03:32,743 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
-2026-04-10 15:03:32,744 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
-2026-04-10 15:03:32,744 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
-2026-04-10 15:03:32,745 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
-2026-04-10 15:03:32,745 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
-2026-04-10 15:03:32,746 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
-2026-04-10 15:03:32,791 - INFO - Evidence report generated successfully.
-2026-04-10 15:03:32,791 - INFO - === Investigation Completed Successfully ===
-2026-04-10 15:03:32,793 - INFO - 127.0.0.1 - - [10/Apr/2026 15:03:32] "POST /api/scan HTTP/1.1" 200 -
-2026-04-10 15:03:32,798 - INFO - 127.0.0.1 - - [10/Apr/2026 15:03:32] "GET /api/logs HTTP/1.1" 200 -
-2026-04-10 15:03:32,804 - INFO - 127.0.0.1 - - [10/Apr/2026 15:03:32] "GET /api/download-report HTTP/1.1" 200 -
-2026-04-10 15:03:46,329 - INFO - 127.0.0.1 - - [10/Apr/2026 15:03:46] "GET / HTTP/1.1" 200 -
-2026-04-10 15:03:46,424 - INFO - 127.0.0.1 - - [10/Apr/2026 15:03:46] "GET /static/js/app.js HTTP/1.1" 200 -
-2026-04-10 15:03:46,426 - INFO - 127.0.0.1 - - [10/Apr/2026 15:03:46] "GET /static/css/styles.css HTTP/1.1" 200 -
-2026-04-10 15:03:46,904 - INFO - 127.0.0.1 - - [10/Apr/2026 15:03:46] "GET /api/stats HTTP/1.1" 200 -
-2026-04-10 15:03:47,898 - INFO - 127.0.0.1 - - [10/Apr/2026 15:03:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-04-10 15:03:55,141 - INFO - === Investigation Started ===
-2026-04-10 15:03:55,142 - INFO - Case ID: HC-2026-001
-2026-04-10 15:03:55,142 - INFO - Scanning Directory: healthcare_data
-2026-04-10 15:03:55,144 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
-2026-04-10 15:03:55,144 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
-2026-04-10 15:03:55,145 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
-2026-04-10 15:03:55,146 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
-2026-04-10 15:03:55,146 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
-2026-04-10 15:03:55,147 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
-2026-04-10 15:03:55,147 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
-2026-04-10 15:03:55,148 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
-2026-04-10 15:03:55,148 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
-2026-04-10 15:03:55,149 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
-2026-04-10 15:03:55,193 - INFO - Evidence report generated successfully.
-2026-04-10 15:03:55,193 - INFO - === Investigation Completed Successfully ===
-2026-04-10 15:03:55,225 - INFO - 127.0.0.1 - - [10/Apr/2026 15:03:55] "POST /api/scan HTTP/1.1" 200 -
-2026-04-10 15:03:55,278 - INFO - 127.0.0.1 - - [10/Apr/2026 15:03:55] "GET /api/stats HTTP/1.1" 200 -
-2026-04-10 15:04:13,349 - INFO - 127.0.0.1 - - [10/Apr/2026 15:04:13] "GET /api/stats HTTP/1.1" 200 -
-2026-04-10 15:04:13,362 - INFO - 127.0.0.1 - - [10/Apr/2026 15:04:13] "GET /api/stats HTTP/1.1" 200 -
-2026-04-10 15:04:19,074 - INFO - 127.0.0.1 - - [10/Apr/2026 15:04:19] "GET /api/logs HTTP/1.1" 200 -
-2026-04-10 15:04:25,277 - INFO - 127.0.0.1 - - [10/Apr/2026 15:04:25] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:26:46,718 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-11 16:26:46,720 - INFO -  * Restarting with stat
+2026-04-11 16:26:47,249 - WARNING -  * Debugger is active!
+2026-04-11 16:26:47,278 - INFO -  * Debugger PIN: 777-836-901
+2026-04-11 16:26:59,810 - INFO - 127.0.0.1 - - [11/Apr/2026 16:26:59] "GET / HTTP/1.1" 200 -
+2026-04-11 16:26:59,896 - INFO - 127.0.0.1 - - [11/Apr/2026 16:26:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-11 16:26:59,897 - INFO - 127.0.0.1 - - [11/Apr/2026 16:26:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-11 16:26:59,999 - INFO - 127.0.0.1 - - [11/Apr/2026 16:26:59] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:27:00,948 - INFO - 127.0.0.1 - - [11/Apr/2026 16:27:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-11 16:27:23,874 - INFO - === Investigation Started ===
+2026-04-11 16:27:23,874 - INFO - Case ID: HC-2026-001
+2026-04-11 16:27:23,875 - INFO - Scanning Directory: healthcare_data
+2026-04-11 16:27:23,908 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-11 16:27:23,909 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-11 16:27:23,909 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-11 16:27:23,910 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-11 16:27:23,910 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-11 16:27:23,911 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-11 16:27:23,911 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-11 16:27:23,911 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-11 16:27:23,912 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-11 16:27:23,912 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-11 16:27:23,969 - INFO - Evidence report generated successfully.
+2026-04-11 16:27:23,969 - INFO - === Investigation Completed Successfully ===
+2026-04-11 16:27:23,971 - INFO - 127.0.0.1 - - [11/Apr/2026 16:27:23] "POST /api/scan HTTP/1.1" 200 -
+2026-04-11 16:27:24,031 - INFO - 127.0.0.1 - - [11/Apr/2026 16:27:24] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:28:08,450 - INFO - 127.0.0.1 - - [11/Apr/2026 16:28:08] "GET /api/download-report HTTP/1.1" 200 -
+2026-04-11 16:28:55,832 - INFO - 127.0.0.1 - - [11/Apr/2026 16:28:55] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:28:55,841 - INFO - 127.0.0.1 - - [11/Apr/2026 16:28:55] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:28:56,595 - INFO - 127.0.0.1 - - [11/Apr/2026 16:28:56] "GET /api/logs HTTP/1.1" 200 -
+2026-04-11 16:29:01,186 - INFO - 127.0.0.1 - - [11/Apr/2026 16:29:01] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:29:01,196 - INFO - 127.0.0.1 - - [11/Apr/2026 16:29:01] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:29:04,290 - INFO - 127.0.0.1 - - [11/Apr/2026 16:29:04] "POST /api/clear-activity HTTP/1.1" 200 -
+2026-04-11 16:29:04,299 - INFO - 127.0.0.1 - - [11/Apr/2026 16:29:04] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:29:04,302 - INFO - 127.0.0.1 - - [11/Apr/2026 16:29:04] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:29:04,308 - INFO - 127.0.0.1 - - [11/Apr/2026 16:29:04] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:29:05,409 - INFO - 127.0.0.1 - - [11/Apr/2026 16:29:05] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:52:18,761 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-11 16:52:18,761 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-11 16:52:18,762 - INFO -  * Restarting with stat
+2026-04-11 16:52:19,168 - WARNING -  * Debugger is active!
+2026-04-11 16:52:19,171 - INFO -  * Debugger PIN: 643-587-150
+2026-04-11 16:52:23,175 - INFO - 127.0.0.1 - - [11/Apr/2026 16:52:23] "GET / HTTP/1.1" 200 -
+2026-04-11 16:52:23,226 - INFO - 127.0.0.1 - - [11/Apr/2026 16:52:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-11 16:52:23,228 - INFO - 127.0.0.1 - - [11/Apr/2026 16:52:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-11 16:52:23,432 - INFO - 127.0.0.1 - - [11/Apr/2026 16:52:23] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:52:24,189 - INFO - 127.0.0.1 - - [11/Apr/2026 16:52:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-11 16:52:27,747 - INFO - === Investigation Started ===
+2026-04-11 16:52:27,747 - INFO - Case ID: HC-2026-001
+2026-04-11 16:52:27,747 - INFO - Scanning Directory: healthcare_data
+2026-04-11 16:52:27,749 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-11 16:52:27,749 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-11 16:52:27,750 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-11 16:52:27,750 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-11 16:52:27,750 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-11 16:52:27,751 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-11 16:52:27,751 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-11 16:52:27,752 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-11 16:52:27,752 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-11 16:52:27,752 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-11 16:52:27,789 - INFO - Evidence report generated successfully.
+2026-04-11 16:52:27,789 - INFO - === Investigation Completed Successfully ===
+2026-04-11 16:52:27,790 - INFO - 127.0.0.1 - - [11/Apr/2026 16:52:27] "POST /api/scan HTTP/1.1" 200 -
+2026-04-11 16:52:27,834 - INFO - 127.0.0.1 - - [11/Apr/2026 16:52:27] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:52:33,483 - INFO - 127.0.0.1 - - [11/Apr/2026 16:52:33] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:52:33,493 - INFO - 127.0.0.1 - - [11/Apr/2026 16:52:33] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:52:35,902 - INFO - 127.0.0.1 - - [11/Apr/2026 16:52:35] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:57:43,928 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-11 16:57:43,928 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-11 16:57:43,929 - INFO -  * Restarting with stat
+2026-04-11 16:57:44,275 - WARNING -  * Debugger is active!
+2026-04-11 16:57:44,306 - INFO -  * Debugger PIN: 643-587-150
+2026-04-11 16:57:49,781 - INFO - === Investigation Started ===
+2026-04-11 16:57:49,781 - INFO - Case ID: HC-2026-001
+2026-04-11 16:57:49,781 - INFO - Scanning Directory: healthcare_data
+2026-04-11 16:57:49,782 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-11 16:57:49,783 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-11 16:57:49,783 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-11 16:57:49,784 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-11 16:57:49,784 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-11 16:57:49,784 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-11 16:57:49,785 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-11 16:57:49,785 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-11 16:57:49,786 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-11 16:57:49,786 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-11 16:57:49,824 - INFO - Evidence report generated successfully.
+2026-04-11 16:57:49,824 - INFO - === Investigation Completed Successfully ===
+2026-04-11 16:57:49,826 - INFO - 127.0.0.1 - - [11/Apr/2026 16:57:49] "POST /api/scan HTTP/1.1" 200 -
+2026-04-11 16:57:49,851 - INFO - 127.0.0.1 - - [11/Apr/2026 16:57:49] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:57:52,903 - INFO - 127.0.0.1 - - [11/Apr/2026 16:57:52] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:57:56,060 - INFO - 127.0.0.1 - - [11/Apr/2026 16:57:56] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:57:57,076 - INFO - 127.0.0.1 - - [11/Apr/2026 16:57:57] "GET /api/logs HTTP/1.1" 200 -
+2026-04-11 16:57:57,405 - INFO - 127.0.0.1 - - [11/Apr/2026 16:57:57] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:57:57,412 - INFO - 127.0.0.1 - - [11/Apr/2026 16:57:57] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:58:00,293 - INFO - 127.0.0.1 - - [11/Apr/2026 16:58:00] "POST /api/clear-activity HTTP/1.1" 200 -
+2026-04-11 16:58:00,302 - INFO - 127.0.0.1 - - [11/Apr/2026 16:58:00] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:58:00,305 - INFO - 127.0.0.1 - - [11/Apr/2026 16:58:00] "GET /api/stats HTTP/1.1" 200 -
+2026-04-11 16:58:00,311 - INFO - 127.0.0.1 - - [11/Apr/2026 16:58:00] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:15:41,511 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-12 15:15:41,512 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-12 15:15:41,513 - INFO -  * Restarting with stat
+2026-04-12 15:15:41,810 - WARNING -  * Debugger is active!
+2026-04-12 15:15:41,815 - INFO -  * Debugger PIN: 643-587-150
+2026-04-12 15:15:44,848 - INFO - 127.0.0.1 - - [12/Apr/2026 15:15:44] "GET / HTTP/1.1" 200 -
+2026-04-12 15:15:44,881 - INFO - 127.0.0.1 - - [12/Apr/2026 15:15:44] "GET /static/css/styles.css HTTP/1.1" 200 -
+2026-04-12 15:15:44,882 - INFO - 127.0.0.1 - - [12/Apr/2026 15:15:44] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-04-12 15:15:44,971 - INFO - 127.0.0.1 - - [12/Apr/2026 15:15:44] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:15:45,549 - INFO - 127.0.0.1 - - [12/Apr/2026 15:15:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-12 15:15:52,999 - INFO - 127.0.0.1 - - [12/Apr/2026 15:15:52] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:15:53,003 - INFO - 127.0.0.1 - - [12/Apr/2026 15:15:53] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:15:54,024 - INFO - 127.0.0.1 - - [12/Apr/2026 15:15:54] "GET /api/logs HTTP/1.1" 200 -
+2026-04-12 15:15:55,038 - INFO - 127.0.0.1 - - [12/Apr/2026 15:15:55] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:15:57,258 - INFO - === Investigation Started ===
+2026-04-12 15:15:57,259 - INFO - Case ID: HC-2026-001
+2026-04-12 15:15:57,259 - INFO - Scanning Directory: healthcare_data
+2026-04-12 15:15:57,260 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-12 15:15:57,261 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-12 15:15:57,261 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-12 15:15:57,262 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-12 15:15:57,262 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-12 15:15:57,263 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-12 15:15:57,263 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-12 15:15:57,264 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-12 15:15:57,264 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-12 15:15:57,265 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-12 15:15:57,293 - INFO - Evidence report generated successfully.
+2026-04-12 15:15:57,293 - INFO - === Investigation Completed Successfully ===
+2026-04-12 15:15:57,294 - INFO - 127.0.0.1 - - [12/Apr/2026 15:15:57] "POST /api/scan HTTP/1.1" 200 -
+2026-04-12 15:16:05,468 - INFO - 127.0.0.1 - - [12/Apr/2026 15:16:05] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:16:09,910 - INFO -  * Detected change in 'c:\\Users\\nirma\\OneDrive\\Desktop\\cloud_forensic_Nirmal\\app.py', reloading
+2026-04-12 15:16:09,953 - INFO -  * Restarting with stat
+2026-04-12 15:16:10,242 - WARNING -  * Debugger is active!
+2026-04-12 15:16:10,244 - INFO -  * Debugger PIN: 643-587-150
+2026-04-12 15:16:14,267 - INFO -  * Detected change in 'c:\\Users\\nirma\\OneDrive\\Desktop\\cloud_forensic_Nirmal\\main.py', reloading
+2026-04-12 15:16:14,319 - INFO -  * Restarting with stat
+2026-04-12 15:16:14,612 - WARNING -  * Debugger is active!
+2026-04-12 15:16:14,613 - INFO -  * Debugger PIN: 643-587-150
+2026-04-12 15:16:19,638 - INFO -  * Detected change in 'c:\\Users\\nirma\\OneDrive\\Desktop\\cloud_forensic_Nirmal\\modules\\metadata.py', reloading
+2026-04-12 15:16:19,688 - INFO -  * Restarting with stat
+2026-04-12 15:16:19,976 - WARNING -  * Debugger is active!
+2026-04-12 15:16:19,978 - INFO -  * Debugger PIN: 643-587-150
+2026-04-12 15:16:34,545 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-12 15:16:34,546 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-12 15:16:34,546 - INFO -  * Restarting with stat
+2026-04-12 15:16:34,841 - WARNING -  * Debugger is active!
+2026-04-12 15:16:34,842 - INFO -  * Debugger PIN: 643-587-150
+2026-04-12 15:16:38,219 - INFO - 127.0.0.1 - - [12/Apr/2026 15:16:38] "GET / HTTP/1.1" 200 -
+2026-04-12 15:16:38,255 - INFO - 127.0.0.1 - - [12/Apr/2026 15:16:38] "GET /static/css/styles.css HTTP/1.1" 200 -
+2026-04-12 15:16:38,256 - INFO - 127.0.0.1 - - [12/Apr/2026 15:16:38] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-04-12 15:16:38,319 - INFO - 127.0.0.1 - - [12/Apr/2026 15:16:38] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:16:43,610 - INFO - === Investigation Started ===
+2026-04-12 15:16:43,610 - INFO - Case ID: HC-2026-001
+2026-04-12 15:16:43,610 - INFO - Scanning Directory: healthcare_data
+2026-04-12 15:16:43,611 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-12 15:16:43,611 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-12 15:16:43,612 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-12 15:16:43,612 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-12 15:16:43,612 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-12 15:16:43,613 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-12 15:16:43,613 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-12 15:16:43,613 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-12 15:16:43,614 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-12 15:16:43,614 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-12 15:16:43,640 - INFO - Evidence report generated successfully.
+2026-04-12 15:16:43,640 - INFO - === Investigation Completed Successfully ===
+2026-04-12 15:16:43,644 - INFO - 127.0.0.1 - - [12/Apr/2026 15:16:43] "POST /api/scan HTTP/1.1" 200 -
+2026-04-12 15:16:43,672 - INFO - 127.0.0.1 - - [12/Apr/2026 15:16:43] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:16:49,270 - INFO - 127.0.0.1 - - [12/Apr/2026 15:16:49] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:16:49,275 - INFO - 127.0.0.1 - - [12/Apr/2026 15:16:49] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:16:54,156 - INFO - 127.0.0.1 - - [12/Apr/2026 15:16:54] "POST /api/clear-activity HTTP/1.1" 200 -
+2026-04-12 15:16:54,161 - INFO - 127.0.0.1 - - [12/Apr/2026 15:16:54] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:16:54,163 - INFO - 127.0.0.1 - - [12/Apr/2026 15:16:54] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:16:54,166 - INFO - 127.0.0.1 - - [12/Apr/2026 15:16:54] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:16:58,983 - INFO - 127.0.0.1 - - [12/Apr/2026 15:16:58] "GET /api/logs HTTP/1.1" 200 -
+2026-04-12 15:17:01,790 - INFO - 127.0.0.1 - - [12/Apr/2026 15:17:01] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:17:24,421 - INFO - 127.0.0.1 - - [12/Apr/2026 15:17:24] "GET /api/download-report HTTP/1.1" 200 -
+2026-04-12 15:18:05,530 - INFO - 127.0.0.1 - - [12/Apr/2026 15:18:05] "GET /api/logs HTTP/1.1" 200 -
+2026-04-12 15:18:05,913 - INFO - 127.0.0.1 - - [12/Apr/2026 15:18:05] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:18:05,920 - INFO - 127.0.0.1 - - [12/Apr/2026 15:18:05] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:18:08,138 - INFO - 127.0.0.1 - - [12/Apr/2026 15:18:08] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:22:52,040 - INFO -  * Detected change in 'c:\\Users\\nirma\\OneDrive\\Desktop\\cloud_forensic_Nirmal\\app.py', reloading
+2026-04-12 15:22:52,104 - INFO -  * Restarting with stat
+2026-04-12 15:22:52,416 - WARNING -  * Debugger is active!
+2026-04-12 15:22:52,418 - INFO -  * Debugger PIN: 643-587-150
+2026-04-12 15:23:58,843 - INFO - 127.0.0.1 - - [12/Apr/2026 15:23:58] "GET / HTTP/1.1" 200 -
+2026-04-12 15:23:58,878 - INFO - 127.0.0.1 - - [12/Apr/2026 15:23:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-12 15:23:58,879 - INFO - 127.0.0.1 - - [12/Apr/2026 15:23:58] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-04-12 15:23:58,947 - INFO - 127.0.0.1 - - [12/Apr/2026 15:23:58] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:24:02,778 - INFO - 127.0.0.1 - - [12/Apr/2026 15:24:02] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:24:17,415 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-12 15:24:17,415 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-12 15:24:17,416 - INFO -  * Restarting with stat
+2026-04-12 15:24:17,716 - WARNING -  * Debugger is active!
+2026-04-12 15:24:17,718 - INFO -  * Debugger PIN: 643-587-150
+2026-04-12 15:24:21,629 - INFO - 127.0.0.1 - - [12/Apr/2026 15:24:21] "GET / HTTP/1.1" 200 -
+2026-04-12 15:24:21,659 - INFO - 127.0.0.1 - - [12/Apr/2026 15:24:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-12 15:24:21,660 - INFO - 127.0.0.1 - - [12/Apr/2026 15:24:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-12 15:24:21,728 - INFO - 127.0.0.1 - - [12/Apr/2026 15:24:21] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:24:29,121 - INFO - === Investigation Started ===
+2026-04-12 15:24:29,121 - INFO - Case ID: HC-2026-001
+2026-04-12 15:24:29,121 - INFO - Scanning Directory: healthcare_data
+2026-04-12 15:24:29,122 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-12 15:24:29,122 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-12 15:24:29,123 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-12 15:24:29,123 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-12 15:24:29,123 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-12 15:24:29,124 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-12 15:24:29,124 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-12 15:24:29,124 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-12 15:24:29,125 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-12 15:24:29,125 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-12 15:24:29,150 - INFO - Evidence report generated successfully.
+2026-04-12 15:24:29,150 - INFO - === Investigation Completed Successfully ===
+2026-04-12 15:24:29,152 - INFO - 127.0.0.1 - - [12/Apr/2026 15:24:29] "POST /api/scan HTTP/1.1" 200 -
+2026-04-12 15:24:29,181 - INFO - 127.0.0.1 - - [12/Apr/2026 15:24:29] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:24:45,732 - INFO - 127.0.0.1 - - [12/Apr/2026 15:24:45] "GET /api/download-csv HTTP/1.1" 200 -
+2026-04-12 15:24:58,558 - INFO - 127.0.0.1 - - [12/Apr/2026 15:24:58] "GET /api/download-report HTTP/1.1" 200 -
+2026-04-12 15:25:17,300 - INFO - 127.0.0.1 - - [12/Apr/2026 15:25:17] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:25:17,307 - INFO - 127.0.0.1 - - [12/Apr/2026 15:25:17] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:25:18,853 - INFO - 127.0.0.1 - - [12/Apr/2026 15:25:18] "GET /api/logs HTTP/1.1" 200 -
+2026-04-12 15:25:19,832 - INFO - 127.0.0.1 - - [12/Apr/2026 15:25:19] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:25:23,931 - INFO -  * Detected change in 'c:\\Users\\nirma\\OneDrive\\Desktop\\cloud_forensic_Nirmal\\app.py', reloading
+2026-04-12 15:25:23,972 - INFO -  * Restarting with stat
+2026-04-12 15:25:24,280 - WARNING -  * Debugger is active!
+2026-04-12 15:25:24,282 - INFO -  * Debugger PIN: 643-587-150
+2026-04-12 15:25:32,370 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-12 15:25:32,370 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-12 15:25:32,371 - INFO -  * Restarting with stat
+2026-04-12 15:25:32,665 - WARNING -  * Debugger is active!
+2026-04-12 15:25:32,667 - INFO -  * Debugger PIN: 643-587-150
+2026-04-12 15:25:37,425 - INFO - 127.0.0.1 - - [12/Apr/2026 15:25:37] "GET / HTTP/1.1" 200 -
+2026-04-12 15:25:37,453 - INFO - 127.0.0.1 - - [12/Apr/2026 15:25:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-12 15:25:37,457 - INFO - 127.0.0.1 - - [12/Apr/2026 15:25:37] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-04-12 15:25:37,530 - INFO - 127.0.0.1 - - [12/Apr/2026 15:25:37] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:25:42,075 - INFO - === Investigation Started ===
+2026-04-12 15:25:42,075 - INFO - Case ID: HC-2026-001
+2026-04-12 15:25:42,075 - INFO - Scanning Directory: healthcare_data
+2026-04-12 15:25:42,076 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-12 15:25:42,076 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-12 15:25:42,077 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-12 15:25:42,077 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-12 15:25:42,077 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-12 15:25:42,078 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-12 15:25:42,078 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-12 15:25:42,078 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-12 15:25:42,078 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-12 15:25:42,079 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-12 15:25:42,105 - INFO - Evidence report generated successfully.
+2026-04-12 15:25:42,105 - INFO - === Investigation Completed Successfully ===
+2026-04-12 15:25:42,109 - INFO - 127.0.0.1 - - [12/Apr/2026 15:25:42] "POST /api/scan HTTP/1.1" 200 -
+2026-04-12 15:25:42,137 - INFO - 127.0.0.1 - - [12/Apr/2026 15:25:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:25:44,220 - INFO - 127.0.0.1 - - [12/Apr/2026 15:25:44] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 15:25:48,277 - INFO - 127.0.0.1 - - [12/Apr/2026 15:25:48] "GET /api/download-csv HTTP/1.1" 200 -
+2026-04-12 21:21:46,933 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-12 21:21:46,934 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-12 21:21:46,935 - INFO -  * Restarting with stat
+2026-04-12 21:21:47,440 - WARNING -  * Debugger is active!
+2026-04-12 21:21:47,446 - INFO -  * Debugger PIN: 643-587-150
+2026-04-12 21:21:50,458 - INFO - 127.0.0.1 - - [12/Apr/2026 21:21:50] "GET / HTTP/1.1" 200 -
+2026-04-12 21:21:50,514 - INFO - 127.0.0.1 - - [12/Apr/2026 21:21:50] "GET /static/css/styles.css HTTP/1.1" 200 -
+2026-04-12 21:21:50,516 - INFO - 127.0.0.1 - - [12/Apr/2026 21:21:50] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-04-12 21:21:51,536 - INFO - 127.0.0.1 - - [12/Apr/2026 21:21:51] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:21:52,639 - INFO - 127.0.0.1 - - [12/Apr/2026 21:21:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-12 21:21:55,751 - INFO - 127.0.0.1 - - [12/Apr/2026 21:21:55] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:21:55,759 - INFO - 127.0.0.1 - - [12/Apr/2026 21:21:55] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:21:56,843 - INFO - 127.0.0.1 - - [12/Apr/2026 21:21:56] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:21:56,851 - INFO - 127.0.0.1 - - [12/Apr/2026 21:21:56] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:21:58,743 - INFO - 127.0.0.1 - - [12/Apr/2026 21:21:58] "POST /api/clear-activity HTTP/1.1" 200 -
+2026-04-12 21:21:58,755 - INFO - 127.0.0.1 - - [12/Apr/2026 21:21:58] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:21:58,758 - INFO - 127.0.0.1 - - [12/Apr/2026 21:21:58] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:21:58,765 - INFO - 127.0.0.1 - - [12/Apr/2026 21:21:58] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:21:59,362 - INFO - 127.0.0.1 - - [12/Apr/2026 21:21:59] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:22:01,153 - INFO - === Investigation Started ===
+2026-04-12 21:22:01,154 - INFO - Case ID: HC-2026-001
+2026-04-12 21:22:01,154 - INFO - Scanning Directory: healthcare_data
+2026-04-12 21:22:01,160 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-12 21:22:01,160 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-12 21:22:01,161 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-12 21:22:01,162 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-12 21:22:01,163 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-12 21:22:01,164 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-12 21:22:01,164 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-12 21:22:01,165 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-12 21:22:01,166 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-12 21:22:01,167 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-12 21:22:01,210 - INFO - Evidence report generated successfully.
+2026-04-12 21:22:01,210 - INFO - === Investigation Completed Successfully ===
+2026-04-12 21:22:01,211 - INFO - 127.0.0.1 - - [12/Apr/2026 21:22:01] "POST /api/scan HTTP/1.1" 200 -
+2026-04-12 21:22:01,258 - INFO - 127.0.0.1 - - [12/Apr/2026 21:22:01] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:24:01,474 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-12 21:24:01,474 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-12 21:24:01,475 - INFO -  * Restarting with stat
+2026-04-12 21:24:02,042 - WARNING -  * Debugger is active!
+2026-04-12 21:24:02,044 - INFO -  * Debugger PIN: 643-587-150
+2026-04-12 21:24:18,771 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:18] "GET / HTTP/1.1" 200 -
+2026-04-12 21:24:18,834 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-12 21:24:18,836 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-12 21:24:18,964 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:18] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:24:23,296 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:23] "GET /api/download-report HTTP/1.1" 200 -
+2026-04-12 21:24:25,966 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:25] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:24:27,827 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:27] "GET /api/logs HTTP/1.1" 200 -
+2026-04-12 21:24:27,998 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:27] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:24:28,008 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:28] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:24:30,252 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:30] "POST /api/clear-activity HTTP/1.1" 200 -
+2026-04-12 21:24:30,266 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:30] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:24:30,270 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:30] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:24:30,275 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:30] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:24:31,187 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:31] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:24:44,457 - INFO - === Investigation Started ===
+2026-04-12 21:24:44,457 - INFO - Case ID: HC-2026-001
+2026-04-12 21:24:44,457 - INFO - Scanning Directory: healthcare_data
+2026-04-12 21:24:44,459 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-12 21:24:44,459 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-12 21:24:44,460 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-12 21:24:44,460 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-12 21:24:44,460 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-12 21:24:44,461 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-12 21:24:44,461 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-12 21:24:44,462 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-12 21:24:44,462 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-12 21:24:44,463 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-12 21:24:44,504 - INFO - Evidence report generated successfully.
+2026-04-12 21:24:44,505 - INFO - === Investigation Completed Successfully ===
+2026-04-12 21:24:44,506 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:44] "POST /api/scan HTTP/1.1" 200 -
+2026-04-12 21:24:44,546 - INFO - 127.0.0.1 - - [12/Apr/2026 21:24:44] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:25:07,064 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:07] "GET /api/logs HTTP/1.1" 200 -
+2026-04-12 21:25:19,145 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:19] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:25:20,209 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:20] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:25:20,215 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:20] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:25:21,120 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:21] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:25:23,004 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:23] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:25:23,011 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:23] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:25:23,327 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:23] "GET /api/logs HTTP/1.1" 200 -
+2026-04-12 21:25:23,563 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:23] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:25:23,569 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:23] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:25:24,582 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:24] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:25:24,798 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:24] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:25:25,540 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:25] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:25:26,649 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:26] "GET /api/logs HTTP/1.1" 200 -
+2026-04-12 21:25:27,159 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:27] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:25:27,168 - INFO - 127.0.0.1 - - [12/Apr/2026 21:25:27] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:26:17,805 - INFO - 127.0.0.1 - - [12/Apr/2026 21:26:17] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 21:26:31,490 - INFO - 127.0.0.1 - - [12/Apr/2026 21:26:31] "GET /api/download-csv HTTP/1.1" 200 -
+2026-04-12 21:26:40,765 - INFO - 127.0.0.1 - - [12/Apr/2026 21:26:40] "GET /api/download-report HTTP/1.1" 200 -
+2026-04-12 21:31:44,698 - INFO - 127.0.0.1 - - [12/Apr/2026 21:31:44] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 23:57:40,743 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-12 23:57:40,743 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-12 23:57:40,745 - INFO -  * Restarting with stat
+2026-04-12 23:57:41,223 - WARNING -  * Debugger is active!
+2026-04-12 23:57:41,225 - INFO -  * Debugger PIN: 643-587-150
+2026-04-12 23:57:44,382 - INFO - 127.0.0.1 - - [12/Apr/2026 23:57:44] "GET / HTTP/1.1" 200 -
+2026-04-12 23:57:44,414 - INFO - 127.0.0.1 - - [12/Apr/2026 23:57:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-12 23:57:44,414 - INFO - 127.0.0.1 - - [12/Apr/2026 23:57:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-12 23:57:44,484 - INFO - 127.0.0.1 - - [12/Apr/2026 23:57:44] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 23:57:49,611 - INFO - === Investigation Started ===
+2026-04-12 23:57:49,611 - INFO - Case ID: HC-2026-001
+2026-04-12 23:57:49,611 - INFO - Scanning Directory: healthcare_data
+2026-04-12 23:57:49,612 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-12 23:57:49,612 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-12 23:57:49,613 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-12 23:57:49,613 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-12 23:57:49,614 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-12 23:57:49,614 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-12 23:57:49,614 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-12 23:57:49,614 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-12 23:57:49,615 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-12 23:57:49,615 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-12 23:57:49,642 - INFO - Evidence report generated successfully.
+2026-04-12 23:57:49,642 - INFO - === Investigation Completed Successfully ===
+2026-04-12 23:57:49,643 - INFO - 127.0.0.1 - - [12/Apr/2026 23:57:49] "POST /api/scan HTTP/1.1" 200 -
+2026-04-12 23:57:49,676 - INFO - 127.0.0.1 - - [12/Apr/2026 23:57:49] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 23:57:52,442 - INFO - 127.0.0.1 - - [12/Apr/2026 23:57:52] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 23:58:04,164 - INFO - 127.0.0.1 - - [12/Apr/2026 23:58:04] "GET /api/logs HTTP/1.1" 200 -
+2026-04-12 23:58:17,948 - INFO - 127.0.0.1 - - [12/Apr/2026 23:58:17] "GET /api/logs HTTP/1.1" 200 -
+2026-04-12 23:58:18,648 - INFO - 127.0.0.1 - - [12/Apr/2026 23:58:18] "GET /api/stats HTTP/1.1" 200 -
+2026-04-12 23:58:18,661 - INFO - 127.0.0.1 - - [12/Apr/2026 23:58:18] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:14:23,968 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-13 11:14:23,968 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-13 11:14:23,970 - INFO -  * Restarting with stat
+2026-04-13 11:14:24,491 - WARNING -  * Debugger is active!
+2026-04-13 11:14:24,505 - INFO -  * Debugger PIN: 777-836-901
+2026-04-13 11:14:29,022 - INFO - 127.0.0.1 - - [13/Apr/2026 11:14:29] "GET / HTTP/1.1" 200 -
+2026-04-13 11:14:29,108 - INFO - 127.0.0.1 - - [13/Apr/2026 11:14:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-13 11:14:29,110 - INFO - 127.0.0.1 - - [13/Apr/2026 11:14:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-13 11:14:29,595 - INFO - 127.0.0.1 - - [13/Apr/2026 11:14:29] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:14:30,316 - INFO - 127.0.0.1 - - [13/Apr/2026 11:14:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-13 11:14:39,557 - INFO - 127.0.0.1 - - [13/Apr/2026 11:14:39] "GET /api/logs HTTP/1.1" 200 -
+2026-04-13 11:14:39,940 - INFO - 127.0.0.1 - - [13/Apr/2026 11:14:39] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:14:39,954 - INFO - 127.0.0.1 - - [13/Apr/2026 11:14:39] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:14:42,149 - INFO - 127.0.0.1 - - [13/Apr/2026 11:14:42] "POST /api/clear-activity HTTP/1.1" 200 -
+2026-04-13 11:14:42,161 - INFO - 127.0.0.1 - - [13/Apr/2026 11:14:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:14:42,163 - INFO - 127.0.0.1 - - [13/Apr/2026 11:14:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:14:42,172 - INFO - 127.0.0.1 - - [13/Apr/2026 11:14:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:14:43,551 - INFO - 127.0.0.1 - - [13/Apr/2026 11:14:43] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:14:47,876 - INFO - === Investigation Started ===
+2026-04-13 11:14:47,876 - INFO - Case ID: HC-2026-001
+2026-04-13 11:14:47,876 - INFO - Scanning Directory: healthcare_data
+2026-04-13 11:14:47,909 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-13 11:14:47,910 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-13 11:14:47,911 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-13 11:14:47,912 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-13 11:14:47,913 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-13 11:14:47,913 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-13 11:14:47,914 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-13 11:14:47,915 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-13 11:14:47,916 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-13 11:14:47,917 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-13 11:14:47,964 - INFO - Evidence report generated successfully.
+2026-04-13 11:14:47,964 - INFO - === Investigation Completed Successfully ===
+2026-04-13 11:14:47,966 - INFO - 127.0.0.1 - - [13/Apr/2026 11:14:47] "POST /api/scan HTTP/1.1" 200 -
+2026-04-13 11:14:48,047 - INFO - 127.0.0.1 - - [13/Apr/2026 11:14:48] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:15:44,207 - INFO - 127.0.0.1 - - [13/Apr/2026 11:15:44] "GET /api/logs HTTP/1.1" 200 -
+2026-04-13 11:15:44,805 - INFO - 127.0.0.1 - - [13/Apr/2026 11:15:44] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:15:44,823 - INFO - 127.0.0.1 - - [13/Apr/2026 11:15:44] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:15:45,701 - INFO - 127.0.0.1 - - [13/Apr/2026 11:15:45] "GET /api/logs HTTP/1.1" 200 -
+2026-04-13 11:15:52,403 - INFO - 127.0.0.1 - - [13/Apr/2026 11:15:52] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:15:52,410 - INFO - 127.0.0.1 - - [13/Apr/2026 11:15:52] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:16:00,569 - INFO - 127.0.0.1 - - [13/Apr/2026 11:16:00] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:22:58,276 - INFO - 127.0.0.1 - - [13/Apr/2026 11:22:58] "GET / HTTP/1.1" 200 -
+2026-04-13 11:22:58,360 - INFO - 127.0.0.1 - - [13/Apr/2026 11:22:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-13 11:22:58,360 - INFO - 127.0.0.1 - - [13/Apr/2026 11:22:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-13 11:22:58,496 - INFO - 127.0.0.1 - - [13/Apr/2026 11:22:58] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:22:59,497 - INFO - 127.0.0.1 - - [13/Apr/2026 11:22:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-13 11:23:03,837 - INFO - === Investigation Started ===
+2026-04-13 11:23:03,838 - INFO - Case ID: HC-2026-001
+2026-04-13 11:23:03,838 - INFO - Scanning Directory: healthcare_data
+2026-04-13 11:23:03,839 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-13 11:23:03,840 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-13 11:23:03,840 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-13 11:23:03,840 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-13 11:23:03,841 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-13 11:23:03,841 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-13 11:23:03,842 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-13 11:23:03,842 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-13 11:23:03,843 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-13 11:23:03,843 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-13 11:23:03,883 - INFO - Evidence report generated successfully.
+2026-04-13 11:23:03,883 - INFO - === Investigation Completed Successfully ===
+2026-04-13 11:23:03,885 - INFO - 127.0.0.1 - - [13/Apr/2026 11:23:03] "POST /api/scan HTTP/1.1" 200 -
+2026-04-13 11:23:03,942 - INFO - 127.0.0.1 - - [13/Apr/2026 11:23:03] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:23:46,224 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-13 11:23:46,225 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-13 11:23:46,226 - INFO -  * Restarting with stat
+2026-04-13 11:23:46,819 - WARNING -  * Debugger is active!
+2026-04-13 11:23:46,822 - INFO -  * Debugger PIN: 777-836-901
+2026-04-13 11:23:50,460 - INFO - 127.0.0.1 - - [13/Apr/2026 11:23:50] "GET / HTTP/1.1" 200 -
+2026-04-13 11:23:50,534 - INFO - 127.0.0.1 - - [13/Apr/2026 11:23:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-13 11:23:50,537 - INFO - 127.0.0.1 - - [13/Apr/2026 11:23:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-13 11:23:50,691 - INFO - 127.0.0.1 - - [13/Apr/2026 11:23:50] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:23:51,555 - INFO - 127.0.0.1 - - [13/Apr/2026 11:23:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-13 11:23:55,136 - INFO - === Investigation Started ===
+2026-04-13 11:23:55,136 - INFO - Case ID: HC-2026-001
+2026-04-13 11:23:55,136 - INFO - Scanning Directory: healthcare_data
+2026-04-13 11:23:55,138 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-13 11:23:55,138 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-13 11:23:55,139 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-13 11:23:55,139 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-13 11:23:55,140 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-13 11:23:55,140 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-13 11:23:55,141 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-13 11:23:55,141 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-13 11:23:55,141 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-13 11:23:55,142 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-13 11:23:55,201 - INFO - Evidence report generated successfully.
+2026-04-13 11:23:55,201 - INFO - === Investigation Completed Successfully ===
+2026-04-13 11:23:55,203 - INFO - 127.0.0.1 - - [13/Apr/2026 11:23:55] "POST /api/scan HTTP/1.1" 200 -
+2026-04-13 11:23:55,256 - INFO - 127.0.0.1 - - [13/Apr/2026 11:23:55] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:24:07,499 - INFO - 127.0.0.1 - - [13/Apr/2026 11:24:07] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:24:07,508 - INFO - 127.0.0.1 - - [13/Apr/2026 11:24:07] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:24:38,130 - INFO - 127.0.0.1 - - [13/Apr/2026 11:24:38] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:24:38,138 - INFO - 127.0.0.1 - - [13/Apr/2026 11:24:38] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:24:38,790 - INFO - 127.0.0.1 - - [13/Apr/2026 11:24:38] "GET /api/logs HTTP/1.1" 200 -
+2026-04-13 11:24:39,253 - INFO - 127.0.0.1 - - [13/Apr/2026 11:24:39] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:24:39,267 - INFO - 127.0.0.1 - - [13/Apr/2026 11:24:39] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:24:42,175 - INFO - 127.0.0.1 - - [13/Apr/2026 11:24:42] "POST /api/clear-activity HTTP/1.1" 200 -
+2026-04-13 11:24:42,184 - INFO - 127.0.0.1 - - [13/Apr/2026 11:24:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:24:42,187 - INFO - 127.0.0.1 - - [13/Apr/2026 11:24:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:24:42,192 - INFO - 127.0.0.1 - - [13/Apr/2026 11:24:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-13 11:31:04,990 - INFO - 127.0.0.1 - - [13/Apr/2026 11:31:04] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:04:22,133 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-14 13:04:22,133 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-14 13:04:22,134 - INFO -  * Restarting with stat
+2026-04-14 13:04:22,536 - WARNING -  * Debugger is active!
+2026-04-14 13:04:22,540 - INFO -  * Debugger PIN: 643-587-150
+2026-04-14 13:04:25,733 - INFO - 127.0.0.1 - - [14/Apr/2026 13:04:25] "GET / HTTP/1.1" 200 -
+2026-04-14 13:04:25,764 - INFO - 127.0.0.1 - - [14/Apr/2026 13:04:25] "GET /static/css/styles.css HTTP/1.1" 200 -
+2026-04-14 13:04:25,766 - INFO - 127.0.0.1 - - [14/Apr/2026 13:04:25] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-04-14 13:04:29,759 - INFO - 127.0.0.1 - - [14/Apr/2026 13:04:29] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:04:30,470 - INFO - 127.0.0.1 - - [14/Apr/2026 13:04:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-14 13:04:42,359 - INFO - === Investigation Started ===
+2026-04-14 13:04:42,359 - INFO - Case ID: HC-2026-001
+2026-04-14 13:04:42,359 - INFO - Scanning Directory: healthcare_data
+2026-04-14 13:04:42,362 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-14 13:04:42,363 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-14 13:04:42,363 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-14 13:04:42,364 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-14 13:04:42,364 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-14 13:04:42,365 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-14 13:04:42,366 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-14 13:04:42,366 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-14 13:04:42,367 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-14 13:04:42,367 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-14 13:04:42,393 - INFO - Evidence report generated successfully.
+2026-04-14 13:04:42,393 - INFO - === Investigation Completed Successfully ===
+2026-04-14 13:04:42,394 - INFO - 127.0.0.1 - - [14/Apr/2026 13:04:42] "POST /api/scan HTTP/1.1" 200 -
+2026-04-14 13:04:42,426 - INFO - 127.0.0.1 - - [14/Apr/2026 13:04:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:04:50,550 - INFO - 127.0.0.1 - - [14/Apr/2026 13:04:50] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:05:54,158 - INFO - 127.0.0.1 - - [14/Apr/2026 13:05:54] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:05:54,163 - INFO - 127.0.0.1 - - [14/Apr/2026 13:05:54] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:05:57,297 - INFO - 127.0.0.1 - - [14/Apr/2026 13:05:57] "GET /api/logs HTTP/1.1" 200 -
+2026-04-14 13:06:00,584 - INFO - 127.0.0.1 - - [14/Apr/2026 13:06:00] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:06:00,590 - INFO - 127.0.0.1 - - [14/Apr/2026 13:06:00] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:06:02,039 - INFO - 127.0.0.1 - - [14/Apr/2026 13:06:02] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:25:46,673 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-14 13:25:46,674 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-14 13:25:46,675 - INFO -  * Restarting with stat
+2026-04-14 13:25:47,046 - WARNING -  * Debugger is active!
+2026-04-14 13:25:47,050 - INFO -  * Debugger PIN: 777-836-901
+2026-04-14 13:25:49,962 - INFO - 127.0.0.1 - - [14/Apr/2026 13:25:49] "GET / HTTP/1.1" 200 -
+2026-04-14 13:25:50,019 - INFO - 127.0.0.1 - - [14/Apr/2026 13:25:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-14 13:25:50,025 - INFO - 127.0.0.1 - - [14/Apr/2026 13:25:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-14 13:25:50,701 - INFO - 127.0.0.1 - - [14/Apr/2026 13:25:50] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:25:51,186 - INFO - 127.0.0.1 - - [14/Apr/2026 13:25:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-14 13:26:36,523 - INFO - 127.0.0.1 - - [14/Apr/2026 13:26:36] "[31m[1mPOST /api/scan HTTP/1.1[0m" 400 -
+2026-04-14 13:27:34,344 - INFO - 127.0.0.1 - - [14/Apr/2026 13:27:34] "[31m[1mPOST /api/scan HTTP/1.1[0m" 400 -
+2026-04-14 13:30:47,876 - INFO - 127.0.0.1 - - [14/Apr/2026 13:30:47] "[31m[1mPOST /api/scan HTTP/1.1[0m" 400 -
+2026-04-14 13:30:53,431 - INFO - 127.0.0.1 - - [14/Apr/2026 13:30:53] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:30:56,828 - INFO - 127.0.0.1 - - [14/Apr/2026 13:30:56] "GET / HTTP/1.1" 200 -
+2026-04-14 13:30:56,863 - INFO - 127.0.0.1 - - [14/Apr/2026 13:30:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-14 13:30:56,864 - INFO - 127.0.0.1 - - [14/Apr/2026 13:30:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-14 13:30:56,885 - INFO - 127.0.0.1 - - [14/Apr/2026 13:30:56] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:31:06,341 - INFO - === Investigation Started ===
+2026-04-14 13:31:06,341 - INFO - Case ID: HC-2026-001
+2026-04-14 13:31:06,341 - INFO - Scanning Directory: healthcare_data
+2026-04-14 13:31:06,345 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-14 13:31:06,345 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-14 13:31:06,346 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-14 13:31:06,346 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-14 13:31:06,347 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-14 13:31:06,347 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-14 13:31:06,348 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-14 13:31:06,348 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-14 13:31:06,349 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-14 13:31:06,349 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-14 13:31:06,378 - INFO - Evidence report generated successfully.
+2026-04-14 13:31:06,378 - INFO - === Investigation Completed Successfully ===
+2026-04-14 13:31:06,379 - INFO - 127.0.0.1 - - [14/Apr/2026 13:31:06] "POST /api/scan HTTP/1.1" 200 -
+2026-04-14 13:31:06,407 - INFO - 127.0.0.1 - - [14/Apr/2026 13:31:06] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:31:13,179 - INFO - 127.0.0.1 - - [14/Apr/2026 13:31:13] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:31:13,184 - INFO - 127.0.0.1 - - [14/Apr/2026 13:31:13] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:31:14,257 - INFO - 127.0.0.1 - - [14/Apr/2026 13:31:14] "GET /api/logs HTTP/1.1" 200 -
+2026-04-14 13:31:15,071 - INFO - 127.0.0.1 - - [14/Apr/2026 13:31:15] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:31:17,121 - INFO - === Investigation Started ===
+2026-04-14 13:31:17,121 - INFO - Case ID: HC-2026-001
+2026-04-14 13:31:17,121 - INFO - Scanning Directory: healthcare_data
+2026-04-14 13:31:17,122 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-14 13:31:17,122 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-14 13:31:17,122 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-14 13:31:17,123 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-14 13:31:17,123 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-14 13:31:17,123 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-14 13:31:17,124 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-14 13:31:17,124 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-14 13:31:17,125 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-14 13:31:17,125 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-14 13:31:17,149 - INFO - Evidence report generated successfully.
+2026-04-14 13:31:17,149 - INFO - === Investigation Completed Successfully ===
+2026-04-14 13:31:17,150 - INFO - 127.0.0.1 - - [14/Apr/2026 13:31:17] "POST /api/scan HTTP/1.1" 200 -
+2026-04-14 13:31:17,162 - INFO - 127.0.0.1 - - [14/Apr/2026 13:31:17] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:31:19,037 - INFO - 127.0.0.1 - - [14/Apr/2026 13:31:19] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:31:20,678 - INFO - === Investigation Started ===
+2026-04-14 13:31:20,678 - INFO - Case ID: HC-2026-001
+2026-04-14 13:31:20,678 - INFO - Scanning Directory: healthcare_data
+2026-04-14 13:31:20,679 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-14 13:31:20,679 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-14 13:31:20,679 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-14 13:31:20,679 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-14 13:31:20,680 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-14 13:31:20,680 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-14 13:31:20,680 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-14 13:31:20,681 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-14 13:31:20,681 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-14 13:31:20,681 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-14 13:31:20,705 - INFO - Evidence report generated successfully.
+2026-04-14 13:31:20,705 - INFO - === Investigation Completed Successfully ===
+2026-04-14 13:31:20,706 - INFO - 127.0.0.1 - - [14/Apr/2026 13:31:20] "POST /api/scan HTTP/1.1" 200 -
+2026-04-14 13:31:20,717 - INFO - 127.0.0.1 - - [14/Apr/2026 13:31:20] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 13:31:22,177 - INFO - 127.0.0.1 - - [14/Apr/2026 13:31:22] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 15:19:35,315 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-14 15:19:35,315 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-14 15:19:35,316 - INFO -  * Restarting with stat
+2026-04-14 15:19:35,720 - WARNING -  * Debugger is active!
+2026-04-14 15:19:35,724 - INFO -  * Debugger PIN: 643-587-150
+2026-04-14 15:19:37,847 - INFO - 127.0.0.1 - - [14/Apr/2026 15:19:37] "GET / HTTP/1.1" 200 -
+2026-04-14 15:19:37,881 - INFO - 127.0.0.1 - - [14/Apr/2026 15:19:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-14 15:19:37,883 - INFO - 127.0.0.1 - - [14/Apr/2026 15:19:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-14 15:19:37,954 - INFO - 127.0.0.1 - - [14/Apr/2026 15:19:37] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 15:19:38,599 - INFO - 127.0.0.1 - - [14/Apr/2026 15:19:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-14 15:20:01,665 - INFO - === Investigation Started ===
+2026-04-14 15:20:01,666 - INFO - Case ID: HC-2026-001
+2026-04-14 15:20:01,666 - INFO - Scanning Directory: healthcare_data
+2026-04-14 15:20:01,670 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-14 15:20:01,671 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-14 15:20:01,671 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-14 15:20:01,671 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-14 15:20:01,672 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-14 15:20:01,672 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-14 15:20:01,672 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-14 15:20:01,673 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-14 15:20:01,673 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-14 15:20:01,674 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-14 15:20:01,701 - INFO - Evidence report generated successfully.
+2026-04-14 15:20:01,701 - INFO - === Investigation Completed Successfully ===
+2026-04-14 15:20:01,703 - INFO - 127.0.0.1 - - [14/Apr/2026 15:20:01] "POST /api/scan HTTP/1.1" 200 -
+2026-04-14 15:20:01,733 - INFO - 127.0.0.1 - - [14/Apr/2026 15:20:01] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 15:20:07,284 - INFO - 127.0.0.1 - - [14/Apr/2026 15:20:07] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 15:20:07,290 - INFO - 127.0.0.1 - - [14/Apr/2026 15:20:07] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 15:20:14,447 - INFO - 127.0.0.1 - - [14/Apr/2026 15:20:14] "GET /api/logs HTTP/1.1" 200 -
+2026-04-14 15:20:17,366 - INFO - 127.0.0.1 - - [14/Apr/2026 15:20:17] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 15:20:42,028 - INFO - 127.0.0.1 - - [14/Apr/2026 15:20:42] "GET / HTTP/1.1" 200 -
+2026-04-14 15:20:42,066 - INFO - 127.0.0.1 - - [14/Apr/2026 15:20:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-14 15:20:42,068 - INFO - 127.0.0.1 - - [14/Apr/2026 15:20:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-14 15:20:42,133 - INFO - 127.0.0.1 - - [14/Apr/2026 15:20:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 15:20:51,047 - INFO - 127.0.0.1 - - [14/Apr/2026 15:20:51] "GET / HTTP/1.1" 200 -
+2026-04-14 15:20:51,087 - INFO - 127.0.0.1 - - [14/Apr/2026 15:20:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-14 15:20:51,087 - INFO - 127.0.0.1 - - [14/Apr/2026 15:20:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-14 15:20:51,149 - INFO - 127.0.0.1 - - [14/Apr/2026 15:20:51] "GET /api/stats HTTP/1.1" 200 -
+2026-04-14 15:21:04,432 - INFO - 127.0.0.1 - - [14/Apr/2026 15:21:04] "GET / HTTP/1.1" 200 -
+2026-04-14 15:21:04,464 - INFO - 127.0.0.1 - - [14/Apr/2026 15:21:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-14 15:21:04,466 - INFO - 127.0.0.1 - - [14/Apr/2026 15:21:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-14 15:21:04,530 - INFO - 127.0.0.1 - - [14/Apr/2026 15:21:04] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:18:31,446 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-16 13:18:31,476 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-16 13:18:31,478 - INFO -  * Restarting with stat
+2026-04-16 13:18:32,160 - WARNING -  * Debugger is active!
+2026-04-16 13:18:32,163 - INFO -  * Debugger PIN: 777-836-901
+2026-04-16 13:18:34,212 - INFO - 127.0.0.1 - - [16/Apr/2026 13:18:34] "GET / HTTP/1.1" 200 -
+2026-04-16 13:18:34,283 - INFO - 127.0.0.1 - - [16/Apr/2026 13:18:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-16 13:18:34,284 - INFO - 127.0.0.1 - - [16/Apr/2026 13:18:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-16 13:18:34,423 - INFO - 127.0.0.1 - - [16/Apr/2026 13:18:34] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:18:41,495 - INFO - 127.0.0.1 - - [16/Apr/2026 13:18:41] "GET /api/logs HTTP/1.1" 200 -
+2026-04-16 13:18:42,113 - INFO - 127.0.0.1 - - [16/Apr/2026 13:18:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:18:42,121 - INFO - 127.0.0.1 - - [16/Apr/2026 13:18:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:18:44,182 - INFO - 127.0.0.1 - - [16/Apr/2026 13:18:44] "POST /api/clear-activity HTTP/1.1" 200 -
+2026-04-16 13:18:44,188 - INFO - 127.0.0.1 - - [16/Apr/2026 13:18:44] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:18:44,190 - INFO - 127.0.0.1 - - [16/Apr/2026 13:18:44] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:18:44,194 - INFO - 127.0.0.1 - - [16/Apr/2026 13:18:44] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:18:44,822 - INFO - 127.0.0.1 - - [16/Apr/2026 13:18:44] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:18:47,098 - INFO - === Investigation Started ===
+2026-04-16 13:18:47,099 - INFO - Case ID: HC-2026-001
+2026-04-16 13:18:47,099 - INFO - Scanning Directory: healthcare_data
+2026-04-16 13:18:47,130 - INFO - Scanned Successfully: healthcare_data\billing\billing_invoices_2026.csv
+2026-04-16 13:18:47,131 - INFO - Scanned Successfully: healthcare_data\billing\billing_payment_summary.txt
+2026-04-16 13:18:47,132 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_case_summary_P001.txt
+2026-04-16 13:18:47,133 - INFO - Scanned Successfully: healthcare_data\EHR\ehr_patient_records.csv
+2026-04-16 13:18:47,134 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_report_P003_cardiac.txt
+2026-04-16 13:18:47,134 - INFO - Scanned Successfully: healthcare_data\lab reports\lab_test_results_2026.csv
+2026-04-16 13:18:47,135 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt
+2026-04-16 13:18:47,136 - INFO - Scanned Successfully: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv
+2026-04-16 13:18:47,137 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_records_2026.csv
+2026-04-16 13:18:47,138 - INFO - Scanned Successfully: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt
+2026-04-16 13:18:47,184 - INFO - Evidence report generated successfully.
+2026-04-16 13:18:47,184 - INFO - === Investigation Completed Successfully ===
+2026-04-16 13:18:47,186 - INFO - 127.0.0.1 - - [16/Apr/2026 13:18:47] "POST /api/scan HTTP/1.1" 200 -
+2026-04-16 13:18:47,218 - INFO - 127.0.0.1 - - [16/Apr/2026 13:18:47] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:19:03,036 - INFO - 127.0.0.1 - - [16/Apr/2026 13:19:03] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:19:09,261 - INFO - 127.0.0.1 - - [16/Apr/2026 13:19:09] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:19:09,272 - INFO - 127.0.0.1 - - [16/Apr/2026 13:19:09] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:19:09,785 - INFO - 127.0.0.1 - - [16/Apr/2026 13:19:09] "GET /api/logs HTTP/1.1" 200 -
+2026-04-16 13:19:10,169 - INFO - 127.0.0.1 - - [16/Apr/2026 13:19:10] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:19:10,177 - INFO - 127.0.0.1 - - [16/Apr/2026 13:19:10] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:19:11,561 - INFO - 127.0.0.1 - - [16/Apr/2026 13:19:11] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:20:28,133 - INFO - 127.0.0.1 - - [16/Apr/2026 13:20:28] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:20:28,142 - INFO - 127.0.0.1 - - [16/Apr/2026 13:20:28] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:20:28,730 - INFO - 127.0.0.1 - - [16/Apr/2026 13:20:28] "GET /api/logs HTTP/1.1" 200 -
+2026-04-16 13:20:29,105 - INFO - 127.0.0.1 - - [16/Apr/2026 13:20:29] "GET /api/stats HTTP/1.1" 200 -
+2026-04-16 13:20:29,111 - INFO - 127.0.0.1 - - [16/Apr/2026 13:20:29] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 11:08:29,603 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-17 11:08:29,604 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-17 11:08:29,605 - INFO -  * Restarting with stat
+2026-04-17 11:08:30,108 - WARNING -  * Debugger is active!
+2026-04-17 11:08:30,122 - INFO -  * Debugger PIN: 410-421-307
+2026-04-17 11:18:15,168 - INFO - 127.0.0.1 - - [17/Apr/2026 11:18:15] "GET / HTTP/1.1" 200 -
+2026-04-17 11:18:15,213 - INFO - 127.0.0.1 - - [17/Apr/2026 11:18:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-17 11:18:15,215 - INFO - 127.0.0.1 - - [17/Apr/2026 11:18:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-17 11:18:15,321 - INFO - 127.0.0.1 - - [17/Apr/2026 11:18:15] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 11:18:16,341 - INFO - 127.0.0.1 - - [17/Apr/2026 11:18:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-17 11:18:21,455 - INFO - 127.0.0.1 - - [17/Apr/2026 11:18:21] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 11:18:21,464 - INFO - 127.0.0.1 - - [17/Apr/2026 11:18:21] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 11:18:23,198 - INFO - 127.0.0.1 - - [17/Apr/2026 11:18:23] "POST /api/clear-activity HTTP/1.1" 200 -
+2026-04-17 11:18:23,208 - INFO - 127.0.0.1 - - [17/Apr/2026 11:18:23] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 11:18:23,211 - INFO - 127.0.0.1 - - [17/Apr/2026 11:18:23] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 11:18:23,220 - INFO - 127.0.0.1 - - [17/Apr/2026 11:18:23] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 11:18:23,815 - INFO - 127.0.0.1 - - [17/Apr/2026 11:18:23] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 13:49:54,213 - INFO - Default admin user created: admin
+2026-04-17 13:54:40,310 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-17 13:54:40,310 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-17 15:08:42,703 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-17 15:08:42,703 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-17 15:08:42,704 - INFO -  * Restarting with stat
+2026-04-17 15:08:43,671 - WARNING -  * Debugger is active!
+2026-04-17 15:08:43,674 - INFO -  * Debugger PIN: 516-190-817
+2026-04-17 15:08:45,705 - INFO - 127.0.0.1 - - [17/Apr/2026 15:08:45] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-17 15:08:45,716 - INFO - 127.0.0.1 - - [17/Apr/2026 15:08:45] "GET /login?next=/ HTTP/1.1" 200 -
+2026-04-17 15:09:23,289 - INFO - Login: admin (127.0.0.1)
+2026-04-17 15:09:23,290 - INFO - 127.0.0.1 - - [17/Apr/2026 15:09:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-17 15:09:23,306 - INFO - 127.0.0.1 - - [17/Apr/2026 15:09:23] "GET / HTTP/1.1" 200 -
+2026-04-17 15:09:23,358 - INFO - 127.0.0.1 - - [17/Apr/2026 15:09:23] "GET /static/css/styles.css HTTP/1.1" 200 -
+2026-04-17 15:09:23,359 - INFO - 127.0.0.1 - - [17/Apr/2026 15:09:23] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-04-17 15:09:25,439 - INFO - 127.0.0.1 - - [17/Apr/2026 15:09:25] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 15:09:40,780 - INFO - === Investigation Started === Case: HC-2026-001 | Dir: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data
+2026-04-17 15:09:40,780 - INFO - 127.0.0.1 - - [17/Apr/2026 15:09:40] "GET /api/scan/stream?path=healthcare_data HTTP/1.1" 200 -
+2026-04-17 15:09:40,781 - INFO - Files discovered: 10
+2026-04-17 15:09:40,783 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_payment_summary.txt | Risk: High (50)
+2026-04-17 15:09:40,798 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_case_summary_P001.txt | Risk: Low (10)
+2026-04-17 15:09:40,799 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_patient_records.csv | Risk: Medium (28)
+2026-04-17 15:09:40,798 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_invoices_2026.csv | Risk: Medium (28)
+2026-04-17 15:09:40,799 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv | Risk: High (68)
+2026-04-17 15:09:40,799 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_test_results_2026.csv | Risk: Medium (28)
+2026-04-17 15:09:40,799 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_drug_inventory.txt | Risk: High (50)
+2026-04-17 15:09:40,800 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_records_2026.csv | Risk: High (68)
+2026-04-17 15:09:40,800 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_report_P003_cardiac.txt | Risk: Low (10)
+2026-04-17 15:09:40,801 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_report_P003_angioplasty.txt | Risk: High (50)
+2026-04-17 15:09:40,857 - INFO - === Scan Complete === Files: 10 | Critical: 0 | High: 5 | Duration: 0.08s
+2026-04-17 15:09:40,924 - INFO - 127.0.0.1 - - [17/Apr/2026 15:09:40] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 15:11:23,745 - INFO - 127.0.0.1 - - [17/Apr/2026 15:11:23] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-17 15:11:32,194 - INFO - 127.0.0.1 - - [17/Apr/2026 15:11:32] "GET /api/scans HTTP/1.1" 200 -
+2026-04-17 15:11:39,156 - INFO - 127.0.0.1 - - [17/Apr/2026 15:11:39] "GET /api/logs HTTP/1.1" 200 -
+2026-04-17 15:11:46,246 - INFO - 127.0.0.1 - - [17/Apr/2026 15:11:46] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 15:12:21,572 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:21] "POST /api/upload HTTP/1.1" 200 -
+2026-04-17 15:12:31,871 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:31] "GET /api/scans HTTP/1.1" 200 -
+2026-04-17 15:12:34,838 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:34] "GET /api/logs HTTP/1.1" 200 -
+2026-04-17 15:12:38,063 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:38] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 15:12:41,657 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:41] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 15:12:42,300 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 15:12:42,828 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 15:12:43,005 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:43] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 15:12:43,178 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:43] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 15:12:43,324 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:43] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 15:12:43,472 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:43] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 15:12:43,626 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:43] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 15:12:43,853 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:43] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 15:12:44,012 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:44] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 15:12:47,357 - INFO - === Investigation Started === Case: HC-2026-001 | Dir: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data
+2026-04-17 15:12:47,357 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:47] "GET /api/scan/stream?path=healthcare_data HTTP/1.1" 200 -
+2026-04-17 15:12:47,357 - INFO - Files discovered: 10
+2026-04-17 15:12:47,360 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_invoices_2026.csv | Risk: Medium (28)
+2026-04-17 15:12:47,361 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_payment_summary.txt | Risk: High (50)
+2026-04-17 15:12:47,363 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_report_P003_cardiac.txt | Risk: Low (10)
+2026-04-17 15:12:47,364 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_test_results_2026.csv | Risk: Medium (28)
+2026-04-17 15:12:47,364 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_records_2026.csv | Risk: High (68)
+2026-04-17 15:12:47,366 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_case_summary_P001.txt | Risk: Low (10)
+2026-04-17 15:12:47,366 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_patient_records.csv | Risk: Medium (28)
+2026-04-17 15:12:47,366 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_drug_inventory.txt | Risk: High (50)
+2026-04-17 15:12:47,366 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_report_P003_angioplasty.txt | Risk: High (50)
+2026-04-17 15:12:47,367 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv | Risk: High (68)
+2026-04-17 15:12:47,414 - INFO - === Scan Complete === Files: 10 | Critical: 0 | High: 5 | Duration: 0.06s
+2026-04-17 15:12:47,470 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:47] "GET /api/stats HTTP/1.1" 200 -
+2026-04-17 15:12:58,115 - INFO - 127.0.0.1 - - [17/Apr/2026 15:12:58] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-17 15:13:00,752 - INFO - 127.0.0.1 - - [17/Apr/2026 15:13:00] "GET /api/logs HTTP/1.1" 200 -
+2026-04-17 15:13:01,347 - INFO - 127.0.0.1 - - [17/Apr/2026 15:13:01] "GET /api/logs HTTP/1.1" 200 -
+2026-04-17 15:13:02,697 - INFO - 127.0.0.1 - - [17/Apr/2026 15:13:02] "GET /api/scans HTTP/1.1" 200 -
+2026-04-17 15:13:04,648 - WARNING - Scan history cleared by: admin
+2026-04-17 15:13:04,648 - INFO - 127.0.0.1 - - [17/Apr/2026 15:13:04] "POST /api/clear-history HTTP/1.1" 200 -
+2026-04-17 15:13:04,657 - INFO - 127.0.0.1 - - [17/Apr/2026 15:13:04] "GET /api/scans HTTP/1.1" 200 -
+2026-04-17 15:13:04,658 - INFO - 127.0.0.1 - - [17/Apr/2026 15:13:04] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 10:43:19,868 - INFO - === Investigation Started === Case: HC-2026-001 | Dir: healthcare_data
+2026-04-18 10:43:19,869 - INFO - Files discovered: 10
+2026-04-18 10:43:19,875 - INFO - [OK] Scanned: healthcare_data\billing\billing_payment_summary.txt | Risk: High (50)
+2026-04-18 10:43:19,876 - INFO - [OK] Scanned: healthcare_data\billing\billing_invoices_2026.csv | Risk: Medium (28)
+2026-04-18 10:43:19,878 - INFO - [OK] Scanned: healthcare_data\EHR\ehr_patient_records.csv | Risk: Medium (28)
+2026-04-18 10:43:19,878 - INFO - [OK] Scanned: healthcare_data\EHR\ehr_case_summary_P001.txt | Risk: Low (10)
+2026-04-18 10:43:19,878 - INFO - [OK] Scanned: healthcare_data\lab reports\lab_test_results_2026.csv | Risk: Medium (28)
+2026-04-18 10:43:19,878 - INFO - [OK] Scanned: healthcare_data\lab reports\lab_report_P003_cardiac.txt | Risk: Low (10)
+2026-04-18 10:43:19,879 - INFO - [OK] Scanned: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt | Risk: High (50)
+2026-04-18 10:43:19,880 - INFO - [OK] Scanned: healthcare_data\Surgery\surgery_records_2026.csv | Risk: High (68)
+2026-04-18 10:43:19,880 - INFO - [OK] Scanned: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv | Risk: High (68)
+2026-04-18 10:43:19,880 - INFO - [OK] Scanned: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt | Risk: High (50)
+2026-04-18 10:43:19,946 - INFO - === Scan Complete === Files: 10 | Critical: 0 | High: 5 | Duration: 0.08s
+2026-04-18 10:44:17,795 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-18 10:44:17,795 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-18 10:44:17,797 - INFO -  * Restarting with stat
+2026-04-18 10:44:18,668 - WARNING -  * Debugger is active!
+2026-04-18 10:44:18,671 - INFO -  * Debugger PIN: 516-190-817
+2026-04-18 10:45:01,179 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-18 10:45:01,179 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-18 10:45:01,180 - INFO -  * Restarting with stat
+2026-04-18 10:45:02,039 - WARNING -  * Debugger is active!
+2026-04-18 10:45:02,042 - INFO -  * Debugger PIN: 516-190-817
+2026-04-18 10:45:04,264 - INFO - 127.0.0.1 - - [18/Apr/2026 10:45:04] "GET / HTTP/1.1" 200 -
+2026-04-18 10:45:04,334 - INFO - 127.0.0.1 - - [18/Apr/2026 10:45:04] "GET /static/css/styles.css HTTP/1.1" 200 -
+2026-04-18 10:45:04,334 - INFO - 127.0.0.1 - - [18/Apr/2026 10:45:04] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-04-18 10:45:07,071 - INFO - 127.0.0.1 - - [18/Apr/2026 10:45:07] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 10:45:42,315 - INFO - 127.0.0.1 - - [18/Apr/2026 10:45:42] "POST /api/upload HTTP/1.1" 200 -
+2026-04-18 10:45:55,086 - INFO - 127.0.0.1 - - [18/Apr/2026 10:45:55] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-18 10:45:56,484 - INFO - 127.0.0.1 - - [18/Apr/2026 10:45:56] "GET /api/scans HTTP/1.1" 200 -
+2026-04-18 10:46:01,168 - INFO - 127.0.0.1 - - [18/Apr/2026 10:46:01] "GET /api/download-csv HTTP/1.1" 200 -
+2026-04-18 10:46:13,909 - INFO - 127.0.0.1 - - [18/Apr/2026 10:46:13] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 10:46:18,170 - INFO - === Investigation Started === Case: HC-2026-001 | Dir: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data
+2026-04-18 10:46:18,171 - INFO - 127.0.0.1 - - [18/Apr/2026 10:46:18] "GET /api/scan/stream?path=healthcare_data HTTP/1.1" 200 -
+2026-04-18 10:46:18,172 - INFO - Files discovered: 10
+2026-04-18 10:46:18,177 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_payment_summary.txt | Risk: High (50)
+2026-04-18 10:46:18,177 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_patient_records.csv | Risk: Medium (28)
+2026-04-18 10:46:18,178 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_invoices_2026.csv | Risk: Medium (28)
+2026-04-18 10:46:18,178 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_case_summary_P001.txt | Risk: Low (10)
+2026-04-18 10:46:18,179 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_report_P003_cardiac.txt | Risk: Low (10)
+2026-04-18 10:46:18,180 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_test_results_2026.csv | Risk: Medium (28)
+2026-04-18 10:46:18,181 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_records_2026.csv | Risk: High (68)
+2026-04-18 10:46:18,181 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv | Risk: High (68)
+2026-04-18 10:46:18,182 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_drug_inventory.txt | Risk: High (50)
+2026-04-18 10:46:18,182 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_report_P003_angioplasty.txt | Risk: High (50)
+2026-04-18 10:46:18,258 - INFO - === Scan Complete === Files: 10 | Critical: 0 | High: 5 | Duration: 0.09s
+2026-04-18 10:46:18,364 - INFO - 127.0.0.1 - - [18/Apr/2026 10:46:18] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 10:46:35,867 - INFO - 127.0.0.1 - - [18/Apr/2026 10:46:35] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 10:47:01,683 - INFO - 127.0.0.1 - - [18/Apr/2026 10:47:01] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-18 10:47:32,272 - INFO - 127.0.0.1 - - [18/Apr/2026 10:47:32] "GET /api/scans HTTP/1.1" 200 -
+2026-04-18 10:47:37,834 - INFO - 127.0.0.1 - - [18/Apr/2026 10:47:37] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 10:47:44,780 - INFO - 127.0.0.1 - - [18/Apr/2026 10:47:44] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 10:47:45,917 - INFO - 127.0.0.1 - - [18/Apr/2026 10:47:45] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 10:47:48,668 - INFO - 127.0.0.1 - - [18/Apr/2026 10:47:48] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 10:47:50,526 - INFO - 127.0.0.1 - - [18/Apr/2026 10:47:50] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 10:47:56,554 - INFO - 127.0.0.1 - - [18/Apr/2026 10:47:56] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 10:48:03,380 - INFO - === Investigation Started === Case: HC-2026-001 | Dir: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data
+2026-04-18 10:48:03,380 - INFO - 127.0.0.1 - - [18/Apr/2026 10:48:03] "GET /api/scan/stream?path=healthcare_data HTTP/1.1" 200 -
+2026-04-18 10:48:03,381 - INFO - Files discovered: 10
+2026-04-18 10:48:03,385 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_invoices_2026.csv | Risk: Medium (28)
+2026-04-18 10:48:03,386 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_payment_summary.txt | Risk: High (50)
+2026-04-18 10:48:03,387 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_case_summary_P001.txt | Risk: Low (10)
+2026-04-18 10:48:03,387 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_patient_records.csv | Risk: Medium (28)
+2026-04-18 10:48:03,388 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_report_P003_cardiac.txt | Risk: Low (10)
+2026-04-18 10:48:03,389 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_records_2026.csv | Risk: High (68)
+2026-04-18 10:48:03,390 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_drug_inventory.txt | Risk: High (50)
+2026-04-18 10:48:03,390 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv | Risk: High (68)
+2026-04-18 10:48:03,390 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_test_results_2026.csv | Risk: Medium (28)
+2026-04-18 10:48:03,391 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_report_P003_angioplasty.txt | Risk: High (50)
+2026-04-18 10:48:03,451 - INFO - === Scan Complete === Files: 10 | Critical: 0 | High: 5 | Duration: 0.07s
+2026-04-18 10:48:03,524 - INFO - 127.0.0.1 - - [18/Apr/2026 10:48:03] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 10:48:05,794 - INFO - 127.0.0.1 - - [18/Apr/2026 10:48:05] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 10:48:45,978 - INFO - 127.0.0.1 - - [18/Apr/2026 10:48:45] "GET / HTTP/1.1" 200 -
+2026-04-18 10:48:46,037 - INFO - 127.0.0.1 - - [18/Apr/2026 10:48:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-18 10:48:46,039 - INFO - 127.0.0.1 - - [18/Apr/2026 10:48:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-18 10:48:48,913 - INFO - 127.0.0.1 - - [18/Apr/2026 10:48:48] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 10:48:55,276 - INFO - 127.0.0.1 - - [18/Apr/2026 10:48:55] "GET / HTTP/1.1" 200 -
+2026-04-18 10:48:55,346 - INFO - 127.0.0.1 - - [18/Apr/2026 10:48:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-18 10:48:55,348 - INFO - 127.0.0.1 - - [18/Apr/2026 10:48:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-18 10:48:58,185 - INFO - 127.0.0.1 - - [18/Apr/2026 10:48:58] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:05:18,763 - INFO - Default admin user created: nirmal
+2026-04-18 11:06:24,246 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-18 11:06:24,246 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-18 11:06:24,247 - INFO -  * Restarting with stat
+2026-04-18 11:06:25,075 - WARNING -  * Debugger is active!
+2026-04-18 11:06:25,077 - INFO -  * Debugger PIN: 516-190-817
+2026-04-18 11:06:52,762 - INFO - 127.0.0.1 - - [18/Apr/2026 11:06:52] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-18 11:06:52,781 - INFO - 127.0.0.1 - - [18/Apr/2026 11:06:52] "GET /login?next=/ HTTP/1.1" 200 -
+2026-04-18 11:06:53,170 - INFO - 127.0.0.1 - - [18/Apr/2026 11:06:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-18 11:07:02,973 - INFO - Login: nirmal (127.0.0.1)
+2026-04-18 11:07:02,975 - INFO - 127.0.0.1 - - [18/Apr/2026 11:07:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-18 11:07:02,986 - INFO - 127.0.0.1 - - [18/Apr/2026 11:07:02] "GET / HTTP/1.1" 200 -
+2026-04-18 11:07:03,011 - INFO - 127.0.0.1 - - [18/Apr/2026 11:07:03] "GET /static/css/styles.css HTTP/1.1" 200 -
+2026-04-18 11:07:03,011 - INFO - 127.0.0.1 - - [18/Apr/2026 11:07:03] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-04-18 11:07:05,040 - INFO - 127.0.0.1 - - [18/Apr/2026 11:07:05] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:07:26,683 - INFO - 127.0.0.1 - - [18/Apr/2026 11:07:26] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:07:36,617 - INFO - 127.0.0.1 - - [18/Apr/2026 11:07:36] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-18 11:07:47,649 - INFO - === Investigation Started === Case: HC-2026-001 | Dir: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data
+2026-04-18 11:07:47,649 - INFO - 127.0.0.1 - - [18/Apr/2026 11:07:47] "GET /api/scan/stream?path=healthcare_data HTTP/1.1" 200 -
+2026-04-18 11:07:47,650 - INFO - Files discovered: 10
+2026-04-18 11:07:47,653 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_payment_summary.txt | Risk: High (50)
+2026-04-18 11:07:47,653 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_invoices_2026.csv | Risk: Medium (28)
+2026-04-18 11:07:47,655 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_case_summary_P001.txt | Risk: Low (10)
+2026-04-18 11:07:47,655 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_patient_records.csv | Risk: Medium (28)
+2026-04-18 11:07:47,657 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_test_results_2026.csv | Risk: Medium (28)
+2026-04-18 11:07:47,657 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_report_P003_cardiac.txt | Risk: Low (10)
+2026-04-18 11:07:47,657 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv | Risk: High (68)
+2026-04-18 11:07:47,658 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_report_P003_angioplasty.txt | Risk: High (50)
+2026-04-18 11:07:47,658 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_drug_inventory.txt | Risk: High (50)
+2026-04-18 11:07:47,659 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_records_2026.csv | Risk: High (68)
+2026-04-18 11:07:47,710 - INFO - === Scan Complete === Files: 10 | Critical: 0 | High: 5 | Duration: 0.06s
+2026-04-18 11:07:47,793 - INFO - 127.0.0.1 - - [18/Apr/2026 11:07:47] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:08:08,272 - INFO - 127.0.0.1 - - [18/Apr/2026 11:08:08] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-18 11:08:15,490 - INFO - 127.0.0.1 - - [18/Apr/2026 11:08:15] "GET /api/scans HTTP/1.1" 200 -
+2026-04-18 11:08:21,552 - INFO - 127.0.0.1 - - [18/Apr/2026 11:08:21] "GET /api/download-pdf HTTP/1.1" 200 -
+2026-04-18 11:08:31,005 - INFO - 127.0.0.1 - - [18/Apr/2026 11:08:31] "GET /api/download-xlsx HTTP/1.1" 200 -
+2026-04-18 11:08:37,236 - INFO - 127.0.0.1 - - [18/Apr/2026 11:08:37] "GET /api/download-csv HTTP/1.1" 200 -
+2026-04-18 11:18:14,506 - INFO -  * Detected change in 'C:\\Users\\nirma\\OneDrive\\Desktop\\cloud_forensic_Nirmal\\app.py', reloading
+2026-04-18 11:18:14,750 - INFO -  * Restarting with stat
+2026-04-18 11:18:15,598 - WARNING -  * Debugger is active!
+2026-04-18 11:18:15,601 - INFO -  * Debugger PIN: 516-190-817
+2026-04-18 11:22:23,222 - INFO - 127.0.0.1 - - [18/Apr/2026 11:22:23] "GET / HTTP/1.1" 200 -
+2026-04-18 11:22:23,265 - INFO - 127.0.0.1 - - [18/Apr/2026 11:22:23] "GET /static/css/styles.css HTTP/1.1" 200 -
+2026-04-18 11:22:23,266 - INFO - 127.0.0.1 - - [18/Apr/2026 11:22:23] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-04-18 11:22:25,899 - INFO - 127.0.0.1 - - [18/Apr/2026 11:22:25] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:23:12,690 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-18 11:23:12,690 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-18 11:23:12,692 - INFO -  * Restarting with stat
+2026-04-18 11:23:13,451 - WARNING -  * Debugger is active!
+2026-04-18 11:23:13,454 - INFO -  * Debugger PIN: 410-421-307
+2026-04-18 11:23:24,596 - INFO - 127.0.0.1 - - [18/Apr/2026 11:23:24] "GET / HTTP/1.1" 200 -
+2026-04-18 11:23:24,635 - INFO - 127.0.0.1 - - [18/Apr/2026 11:23:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-18 11:23:24,637 - INFO - 127.0.0.1 - - [18/Apr/2026 11:23:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-18 11:23:27,135 - INFO - 127.0.0.1 - - [18/Apr/2026 11:23:27] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:23:31,979 - INFO - === Investigation Started === Case: HC-2026-001 | Dir: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data
+2026-04-18 11:23:31,979 - INFO - 127.0.0.1 - - [18/Apr/2026 11:23:31] "GET /api/scan/stream?path=healthcare_data HTTP/1.1" 200 -
+2026-04-18 11:23:31,980 - INFO - Files discovered: 10
+2026-04-18 11:23:31,983 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_invoices_2026.csv | Risk: Medium (28)
+2026-04-18 11:23:31,984 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_payment_summary.txt | Risk: High (50)
+2026-04-18 11:23:31,984 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_case_summary_P001.txt | Risk: Low (10)
+2026-04-18 11:23:31,986 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_patient_records.csv | Risk: Medium (28)
+2026-04-18 11:23:31,986 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_test_results_2026.csv | Risk: Medium (28)
+2026-04-18 11:23:31,987 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_report_P003_cardiac.txt | Risk: Low (10)
+2026-04-18 11:23:31,987 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv | Risk: High (68)
+2026-04-18 11:23:31,988 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_drug_inventory.txt | Risk: High (50)
+2026-04-18 11:23:31,988 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_records_2026.csv | Risk: High (68)
+2026-04-18 11:23:31,988 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_report_P003_angioplasty.txt | Risk: High (50)
+2026-04-18 11:23:32,038 - INFO - === Scan Complete === Files: 10 | Critical: 0 | High: 5 | Duration: 0.06s
+2026-04-18 11:23:32,085 - INFO - 127.0.0.1 - - [18/Apr/2026 11:23:32] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:23:38,942 - INFO - 127.0.0.1 - - [18/Apr/2026 11:23:38] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-18 11:23:40,237 - INFO - 127.0.0.1 - - [18/Apr/2026 11:23:40] "GET /api/scans HTTP/1.1" 200 -
+2026-04-18 11:23:42,451 - INFO - 127.0.0.1 - - [18/Apr/2026 11:23:42] "GET /api/download-csv HTTP/1.1" 200 -
+2026-04-18 11:23:46,636 - INFO - 127.0.0.1 - - [18/Apr/2026 11:23:46] "GET /api/download-xlsx HTTP/1.1" 200 -
+2026-04-18 11:23:53,304 - INFO - 127.0.0.1 - - [18/Apr/2026 11:23:53] "GET /api/download-pdf HTTP/1.1" 200 -
+2026-04-18 11:24:01,643 - INFO - 127.0.0.1 - - [18/Apr/2026 11:24:01] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:24:06,601 - INFO - 127.0.0.1 - - [18/Apr/2026 11:24:06] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:24:07,540 - INFO - 127.0.0.1 - - [18/Apr/2026 11:24:07] "GET /api/scans/2/evidence HTTP/1.1" 200 -
+2026-04-18 11:24:09,346 - INFO - 127.0.0.1 - - [18/Apr/2026 11:24:09] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:24:44,009 - INFO - 127.0.0.1 - - [18/Apr/2026 11:24:44] "GET / HTTP/1.1" 200 -
+2026-04-18 11:24:44,047 - INFO - 127.0.0.1 - - [18/Apr/2026 11:24:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-18 11:24:44,047 - INFO - 127.0.0.1 - - [18/Apr/2026 11:24:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-18 11:24:46,564 - INFO - 127.0.0.1 - - [18/Apr/2026 11:24:46] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:25:11,239 - INFO - 127.0.0.1 - - [18/Apr/2026 11:25:11] "GET / HTTP/1.1" 200 -
+2026-04-18 11:25:11,277 - INFO - 127.0.0.1 - - [18/Apr/2026 11:25:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-18 11:25:11,279 - INFO - 127.0.0.1 - - [18/Apr/2026 11:25:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-18 11:25:13,796 - INFO - 127.0.0.1 - - [18/Apr/2026 11:25:13] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:25:52,634 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-18 11:25:52,634 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-18 11:25:52,635 - INFO -  * Restarting with stat
+2026-04-18 11:25:53,411 - WARNING -  * Debugger is active!
+2026-04-18 11:25:53,413 - INFO -  * Debugger PIN: 410-421-307
+2026-04-18 11:25:58,832 - INFO - 127.0.0.1 - - [18/Apr/2026 11:25:58] "GET / HTTP/1.1" 200 -
+2026-04-18 11:25:58,870 - INFO - 127.0.0.1 - - [18/Apr/2026 11:25:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-18 11:25:58,871 - INFO - 127.0.0.1 - - [18/Apr/2026 11:25:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-18 11:26:01,413 - INFO - 127.0.0.1 - - [18/Apr/2026 11:26:01] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:32:21,116 - INFO - 127.0.0.1 - - [18/Apr/2026 11:32:21] "GET / HTTP/1.1" 200 -
+2026-04-18 11:32:21,186 - INFO - 127.0.0.1 - - [18/Apr/2026 11:32:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-18 11:32:21,188 - INFO - 127.0.0.1 - - [18/Apr/2026 11:32:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-18 11:35:00,774 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-18 11:35:00,774 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-18 11:35:00,775 - INFO -  * Restarting with stat
+2026-04-18 11:35:01,531 - WARNING -  * Debugger is active!
+2026-04-18 11:35:01,534 - INFO -  * Debugger PIN: 410-421-307
+2026-04-18 11:35:04,103 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:04] "GET / HTTP/1.1" 200 -
+2026-04-18 11:35:04,164 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-18 11:35:04,167 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-18 11:35:06,810 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:06] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:35:10,874 - INFO - === Investigation Started === Case: HC-2026-001 | Dir: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data
+2026-04-18 11:35:10,874 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:10] "GET /api/scan/stream?path=healthcare_data HTTP/1.1" 200 -
+2026-04-18 11:35:10,875 - INFO - Files discovered: 10
+2026-04-18 11:35:10,878 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_invoices_2026.csv | Risk: Medium (28)
+2026-04-18 11:35:10,878 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_payment_summary.txt | Risk: High (50)
+2026-04-18 11:35:10,880 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_case_summary_P001.txt | Risk: Low (10)
+2026-04-18 11:35:10,881 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_report_P003_cardiac.txt | Risk: Low (10)
+2026-04-18 11:35:10,882 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_drug_inventory.txt | Risk: High (50)
+2026-04-18 11:35:10,882 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_patient_records.csv | Risk: Medium (28)
+2026-04-18 11:35:10,882 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_test_results_2026.csv | Risk: Medium (28)
+2026-04-18 11:35:10,883 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv | Risk: High (68)
+2026-04-18 11:35:10,883 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_report_P003_angioplasty.txt | Risk: High (50)
+2026-04-18 11:35:10,884 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_records_2026.csv | Risk: High (68)
+2026-04-18 11:35:10,928 - INFO - === Scan Complete === Files: 10 | Critical: 0 | High: 5 | Duration: 0.05s
+2026-04-18 11:35:10,973 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:10] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:35:13,902 - INFO - Logout: nirmal
+2026-04-18 11:35:13,903 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-18 11:35:13,915 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:13] "GET /login HTTP/1.1" 200 -
+2026-04-18 11:35:20,369 - INFO - Login: nirmal (127.0.0.1)
+2026-04-18 11:35:20,370 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-18 11:35:20,379 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:20] "GET / HTTP/1.1" 200 -
+2026-04-18 11:35:20,435 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-18 11:35:20,437 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-18 11:35:22,466 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:22] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:35:26,115 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:26] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-18 11:35:27,093 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:27] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:35:29,275 - INFO - === Investigation Started === Case: HC-2026-001 | Dir: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data
+2026-04-18 11:35:29,276 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:29] "GET /api/scan/stream?path=healthcare_data HTTP/1.1" 200 -
+2026-04-18 11:35:29,276 - INFO - Files discovered: 10
+2026-04-18 11:35:29,280 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_case_summary_P001.txt | Risk: Low (10)
+2026-04-18 11:35:29,281 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_invoices_2026.csv | Risk: Medium (28)
+2026-04-18 11:35:29,281 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_payment_summary.txt | Risk: High (50)
+2026-04-18 11:35:29,284 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_records_2026.csv | Risk: High (68)
+2026-04-18 11:35:29,284 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_patient_records.csv | Risk: Medium (28)
+2026-04-18 11:35:29,284 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_report_P003_cardiac.txt | Risk: Low (10)
+2026-04-18 11:35:29,284 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_drug_inventory.txt | Risk: High (50)
+2026-04-18 11:35:29,285 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_test_results_2026.csv | Risk: Medium (28)
+2026-04-18 11:35:29,285 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_report_P003_angioplasty.txt | Risk: High (50)
+2026-04-18 11:35:29,286 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv | Risk: High (68)
+2026-04-18 11:35:29,327 - INFO - === Scan Complete === Files: 10 | Critical: 0 | High: 5 | Duration: 0.05s
+2026-04-18 11:35:29,355 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:29] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:35:38,751 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:38] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-18 11:35:40,131 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:40] "GET /api/scans HTTP/1.1" 200 -
+2026-04-18 11:35:47,674 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:47] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 11:35:49,324 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:49] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 11:35:49,783 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:49] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 11:35:50,173 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:50] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 11:35:50,735 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:50] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 11:35:51,111 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:51] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 11:35:52,170 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:52] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 11:35:52,467 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:52] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 11:35:52,732 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:52] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 11:35:53,199 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:53] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 11:35:53,768 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:53] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 11:35:58,349 - INFO - 127.0.0.1 - - [18/Apr/2026 11:35:58] "GET /api/logs HTTP/1.1" 200 -
+2026-04-18 11:36:03,863 - INFO - 127.0.0.1 - - [18/Apr/2026 11:36:03] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:36:30,036 - INFO - 127.0.0.1 - - [18/Apr/2026 11:36:30] "GET / HTTP/1.1" 200 -
+2026-04-18 11:36:30,135 - INFO - 127.0.0.1 - - [18/Apr/2026 11:36:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-18 11:36:30,137 - INFO - 127.0.0.1 - - [18/Apr/2026 11:36:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-18 11:36:33,075 - INFO - 127.0.0.1 - - [18/Apr/2026 11:36:33] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:36:56,466 - INFO - 127.0.0.1 - - [18/Apr/2026 11:36:56] "GET / HTTP/1.1" 200 -
+2026-04-18 11:36:56,520 - INFO - 127.0.0.1 - - [18/Apr/2026 11:36:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-18 11:36:56,521 - INFO - 127.0.0.1 - - [18/Apr/2026 11:36:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-18 11:43:46,002 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-18 11:43:46,002 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-18 11:43:46,004 - INFO -  * Restarting with stat
+2026-04-18 11:43:47,075 - WARNING -  * Debugger is active!
+2026-04-18 11:43:47,078 - INFO -  * Debugger PIN: 410-421-307
+2026-04-18 11:44:05,614 - INFO - 127.0.0.1 - - [18/Apr/2026 11:44:05] "GET / HTTP/1.1" 200 -
+2026-04-18 11:44:05,663 - INFO - 127.0.0.1 - - [18/Apr/2026 11:44:05] "GET /static/css/styles.css HTTP/1.1" 200 -
+2026-04-18 11:44:05,663 - INFO - 127.0.0.1 - - [18/Apr/2026 11:44:05] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-04-18 11:44:08,451 - INFO - 127.0.0.1 - - [18/Apr/2026 11:44:08] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:44:13,015 - INFO - === Investigation Started === Case: HC-2026-001 | Dir: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data
+2026-04-18 11:44:13,015 - INFO - 127.0.0.1 - - [18/Apr/2026 11:44:13] "GET /api/scan/stream?path=healthcare_data HTTP/1.1" 200 -
+2026-04-18 11:44:13,016 - INFO - Files discovered: 10
+2026-04-18 11:44:13,023 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_invoices_2026.csv | Risk: Medium (28)
+2026-04-18 11:44:13,025 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_payment_summary.txt | Risk: High (50)
+2026-04-18 11:44:13,025 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_patient_records.csv | Risk: Medium (28)
+2026-04-18 11:44:13,026 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_case_summary_P001.txt | Risk: Low (10)
+2026-04-18 11:44:13,027 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_report_P003_cardiac.txt | Risk: Low (10)
+2026-04-18 11:44:13,028 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_drug_inventory.txt | Risk: High (50)
+2026-04-18 11:44:13,028 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_test_results_2026.csv | Risk: Medium (28)
+2026-04-18 11:44:13,028 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_records_2026.csv | Risk: High (68)
+2026-04-18 11:44:13,029 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv | Risk: High (68)
+2026-04-18 11:44:13,029 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_report_P003_angioplasty.txt | Risk: High (50)
+2026-04-18 11:44:13,097 - INFO - === Scan Complete === Files: 10 | Critical: 0 | High: 5 | Duration: 0.08s
+2026-04-18 11:44:13,167 - INFO - 127.0.0.1 - - [18/Apr/2026 11:44:13] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:44:15,290 - INFO - 127.0.0.1 - - [18/Apr/2026 11:44:15] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:44:55,039 - INFO - 127.0.0.1 - - [18/Apr/2026 11:44:55] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:44:55,808 - INFO - 127.0.0.1 - - [18/Apr/2026 11:44:55] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 11:44:56,828 - INFO - 127.0.0.1 - - [18/Apr/2026 11:44:56] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-18 11:44:57,760 - INFO - 127.0.0.1 - - [18/Apr/2026 11:44:57] "GET /api/stats HTTP/1.1" 200 -
+2026-04-18 12:05:20,670 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-18 12:05:20,671 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-18 12:05:20,674 - INFO -  * Restarting with stat
+2026-04-18 12:05:22,192 - WARNING -  * Debugger is active!
+2026-04-18 12:05:22,196 - INFO -  * Debugger PIN: 410-421-307
+2026-04-19 20:55:33,485 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-19 20:55:33,486 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-19 20:55:33,487 - INFO -  * Restarting with stat
+2026-04-19 20:55:34,320 - WARNING -  * Debugger is active!
+2026-04-19 20:55:34,323 - INFO -  * Debugger PIN: 410-421-307
+2026-04-19 20:55:37,319 - INFO - 127.0.0.1 - - [19/Apr/2026 20:55:37] "GET / HTTP/1.1" 200 -
+2026-04-19 20:55:37,370 - INFO - 127.0.0.1 - - [19/Apr/2026 20:55:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-19 20:55:37,371 - INFO - 127.0.0.1 - - [19/Apr/2026 20:55:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-19 20:55:38,355 - INFO - 127.0.0.1 - - [19/Apr/2026 20:55:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-19 20:55:40,182 - INFO - 127.0.0.1 - - [19/Apr/2026 20:55:40] "GET /api/stats HTTP/1.1" 200 -
+2026-04-19 20:55:43,825 - INFO - Logout: nirmal
+2026-04-19 20:55:43,826 - INFO - 127.0.0.1 - - [19/Apr/2026 20:55:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-04-19 20:55:43,837 - INFO - 127.0.0.1 - - [19/Apr/2026 20:55:43] "GET /login HTTP/1.1" 200 -
+2026-04-19 20:55:57,332 - INFO - 127.0.0.1 - - [19/Apr/2026 20:55:57] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-19 20:55:57,370 - INFO - 127.0.0.1 - - [19/Apr/2026 20:55:57] "GET /login?next=/ HTTP/1.1" 200 -
+2026-04-19 20:56:13,583 - INFO - Login: nirmal (127.0.0.1)
+2026-04-19 20:56:13,585 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-19 20:56:13,622 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:13] "GET / HTTP/1.1" 200 -
+2026-04-19 20:56:13,678 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-19 20:56:13,679 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-19 20:56:15,838 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:15] "GET /api/stats HTTP/1.1" 200 -
+2026-04-19 20:56:20,029 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:20] "GET /api/stats HTTP/1.1" 200 -
+2026-04-19 20:56:23,563 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:23] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-19 20:56:26,646 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:26] "GET /api/scans HTTP/1.1" 200 -
+2026-04-19 20:56:29,108 - WARNING - Scan history cleared by: nirmal
+2026-04-19 20:56:29,108 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:29] "POST /api/clear-history HTTP/1.1" 200 -
+2026-04-19 20:56:29,121 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:29] "GET /api/scans HTTP/1.1" 200 -
+2026-04-19 20:56:29,123 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:29] "GET /api/stats HTTP/1.1" 200 -
+2026-04-19 20:56:29,986 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:29] "GET /api/stats HTTP/1.1" 200 -
+2026-04-19 20:56:32,547 - INFO - === Investigation Started === Case: HC-2026-001 | Dir: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data
+2026-04-19 20:56:32,548 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:32] "GET /api/scan/stream?path=healthcare_data HTTP/1.1" 200 -
+2026-04-19 20:56:32,548 - INFO - Files discovered: 10
+2026-04-19 20:56:32,554 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_payment_summary.txt | Risk: High (50)
+2026-04-19 20:56:32,556 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_invoices_2026.csv | Risk: Medium (28)
+2026-04-19 20:56:32,557 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_patient_records.csv | Risk: Medium (28)
+2026-04-19 20:56:32,558 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_case_summary_P001.txt | Risk: Low (10)
+2026-04-19 20:56:32,559 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_report_P003_cardiac.txt | Risk: Low (10)
+2026-04-19 20:56:32,560 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_drug_inventory.txt | Risk: High (50)
+2026-04-19 20:56:32,561 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_report_P003_angioplasty.txt | Risk: High (50)
+2026-04-19 20:56:32,561 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv | Risk: High (68)
+2026-04-19 20:56:32,562 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_records_2026.csv | Risk: High (68)
+2026-04-19 20:56:32,562 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_test_results_2026.csv | Risk: Medium (28)
+2026-04-19 20:56:32,631 - INFO - === Scan Complete === Files: 10 | Critical: 0 | High: 5 | Duration: 0.08s
+2026-04-19 20:56:32,678 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:32] "GET /api/stats HTTP/1.1" 200 -
+2026-04-19 20:56:49,087 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:49] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-19 20:56:51,669 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:51] "GET /api/scans HTTP/1.1" 200 -
+2026-04-19 20:56:53,690 - INFO - 127.0.0.1 - - [19/Apr/2026 20:56:53] "GET /api/scans/1/evidence HTTP/1.1" 200 -
+2026-04-19 20:57:30,007 - INFO - 127.0.0.1 - - [19/Apr/2026 20:57:30] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-19 20:57:30,679 - INFO - 127.0.0.1 - - [19/Apr/2026 20:57:30] "GET /api/scans HTTP/1.1" 200 -
+2026-04-19 20:57:33,599 - INFO - 127.0.0.1 - - [19/Apr/2026 20:57:33] "GET /api/download-csv HTTP/1.1" 200 -
+2026-04-19 20:57:48,893 - INFO - 127.0.0.1 - - [19/Apr/2026 20:57:48] "GET /api/download-xlsx HTTP/1.1" 200 -
+2026-04-19 20:58:02,699 - INFO - 127.0.0.1 - - [19/Apr/2026 20:58:02] "GET /api/logs HTTP/1.1" 200 -
+2026-04-19 20:58:05,402 - INFO - 127.0.0.1 - - [19/Apr/2026 20:58:05] "GET /api/scans HTTP/1.1" 200 -
+2026-04-19 20:58:05,745 - INFO - 127.0.0.1 - - [19/Apr/2026 20:58:05] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-19 20:58:06,774 - INFO - 127.0.0.1 - - [19/Apr/2026 20:58:06] "GET /api/stats HTTP/1.1" 200 -
+2026-04-19 20:58:12,689 - INFO - 127.0.0.1 - - [19/Apr/2026 20:58:12] "GET /api/scans HTTP/1.1" 200 -
+2026-04-19 21:25:12,815 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-19 21:25:12,815 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-19 21:25:12,817 - INFO -  * Restarting with stat
+2026-04-19 21:25:14,164 - WARNING -  * Debugger is active!
+2026-04-19 21:25:14,169 - INFO -  * Debugger PIN: 410-421-307
+2026-04-19 21:25:16,755 - INFO - 127.0.0.1 - - [19/Apr/2026 21:25:16] "GET / HTTP/1.1" 200 -
+2026-04-19 21:25:16,832 - INFO - 127.0.0.1 - - [19/Apr/2026 21:25:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2026-04-19 21:25:16,834 - INFO - 127.0.0.1 - - [19/Apr/2026 21:25:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-04-19 21:25:20,043 - INFO - 127.0.0.1 - - [19/Apr/2026 21:25:20] "GET /api/stats HTTP/1.1" 200 -
+2026-04-19 21:25:26,368 - INFO - === Investigation Started === Case: HC-2026-001 | Dir: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data
+2026-04-19 21:25:26,369 - INFO - 127.0.0.1 - - [19/Apr/2026 21:25:26] "GET /api/scan/stream?path=healthcare_data HTTP/1.1" 200 -
+2026-04-19 21:25:26,370 - INFO - Files discovered: 10
+2026-04-19 21:25:26,374 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_invoices_2026.csv | Risk: Medium (28)
+2026-04-19 21:25:26,377 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\billing\billing_payment_summary.txt | Risk: High (50)
+2026-04-19 21:25:26,378 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_case_summary_P001.txt | Risk: Low (10)
+2026-04-19 21:25:26,380 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_report_P003_cardiac.txt | Risk: Low (10)
+2026-04-19 21:25:26,380 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_patient_records.csv | Risk: Medium (28)
+2026-04-19 21:25:26,381 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_test_results_2026.csv | Risk: Medium (28)
+2026-04-19 21:25:26,382 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_drug_inventory.txt | Risk: High (50)
+2026-04-19 21:25:26,383 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_records_2026.csv | Risk: High (68)
+2026-04-19 21:25:26,383 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_report_P003_angioplasty.txt | Risk: High (50)
+2026-04-19 21:25:26,383 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv | Risk: High (68)
+2026-04-19 21:25:26,472 - INFO - === Scan Complete === Files: 10 | Critical: 0 | High: 5 | Duration: 0.10s
+2026-04-19 21:25:26,586 - INFO - 127.0.0.1 - - [19/Apr/2026 21:25:26] "GET /api/stats HTTP/1.1" 200 -
+2026-04-19 21:25:35,395 - INFO - 127.0.0.1 - - [19/Apr/2026 21:25:35] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-19 21:25:36,331 - INFO - 127.0.0.1 - - [19/Apr/2026 21:25:36] "GET /api/scans HTTP/1.1" 200 -
+2026-04-19 21:25:38,618 - INFO - 127.0.0.1 - - [19/Apr/2026 21:25:38] "GET /api/download-csv HTTP/1.1" 200 -
+2026-04-19 21:25:50,458 - INFO - 127.0.0.1 - - [19/Apr/2026 21:25:50] "GET /api/logs HTTP/1.1" 200 -
+2026-04-19 22:02:11,196 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-19 22:02:11,197 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-19 22:02:11,198 - INFO -  * Restarting with stat
+2026-04-19 22:02:12,212 - WARNING -  * Debugger is active!
+2026-04-19 22:02:12,215 - INFO -  * Debugger PIN: 410-421-307
+2026-04-21 19:51:22,404 - INFO - Login: nirmal (127.0.0.1)
+2026-04-21 19:51:22,415 - INFO - === Investigation Started === Case: HC-2026-001 | Dir: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\uploads\20260421_195122
+2026-04-21 19:51:22,416 - INFO - Files discovered: 1
+2026-04-21 19:51:22,417 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\cloud_forensic_Nirmal\uploads\20260421_195122\test_upload.txt | Risk: High (50)
+2026-04-21 19:51:22,440 - INFO - === Scan Complete === Files: 1 | Critical: 0 | High: 1 | Duration: 0.03s
+2026-04-21 20:53:06,922 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-21 20:53:06,922 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-21 20:53:06,923 - INFO -  * Restarting with stat
+2026-04-21 20:53:07,858 - WARNING -  * Debugger is active!
+2026-04-21 20:53:07,860 - INFO -  * Debugger PIN: 516-190-817
+2026-04-21 20:53:09,930 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:09] "[32mGET / HTTP/1.1[0m" 302 -
+2026-04-21 20:53:09,954 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:09] "GET /login?next=/ HTTP/1.1" 200 -
+2026-04-21 20:53:10,989 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-21 20:53:12,445 - WARNING - Failed login attempt: admin
+2026-04-21 20:53:12,445 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:12] "POST /login HTTP/1.1" 200 -
+2026-04-21 20:53:16,739 - WARNING - Failed login attempt: admin
+2026-04-21 20:53:16,740 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:16] "POST /login HTTP/1.1" 200 -
+2026-04-21 20:53:20,864 - WARNING - Failed login attempt: admin
+2026-04-21 20:53:20,864 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:20] "POST /login HTTP/1.1" 200 -
+2026-04-21 20:53:26,497 - WARNING - Failed login attempt: admin
+2026-04-21 20:53:26,498 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:26] "POST /login HTTP/1.1" 200 -
+2026-04-21 20:53:33,597 - WARNING - Failed login attempt: nirmal
+2026-04-21 20:53:33,597 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:33] "POST /login HTTP/1.1" 200 -
+2026-04-21 20:53:41,907 - INFO - Login: nirmal (127.0.0.1)
+2026-04-21 20:53:41,908 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-04-21 20:53:41,920 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:41] "GET / HTTP/1.1" 200 -
+2026-04-21 20:53:41,954 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:41] "GET /static/css/styles.css HTTP/1.1" 200 -
+2026-04-21 20:53:41,954 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:41] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-04-21 20:53:43,962 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:43] "GET /api/stats HTTP/1.1" 200 -
+2026-04-21 20:53:47,197 - INFO - === Investigation Started === Case: HC-2026-001 | Dir: C:\Users\nirma\OneDrive\Desktop\sree\cloud_forensic_Nirmal\cloud_forensic_Nirmal\healthcare_data
+2026-04-21 20:53:47,197 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:47] "GET /api/scan/stream?path=healthcare_data HTTP/1.1" 200 -
+2026-04-21 20:53:47,198 - INFO - Files discovered: 10
+2026-04-21 20:53:47,201 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\sree\cloud_forensic_Nirmal\cloud_forensic_Nirmal\healthcare_data\billing\billing_invoices_2026.csv | Risk: Medium (28)
+2026-04-21 20:53:47,201 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\sree\cloud_forensic_Nirmal\cloud_forensic_Nirmal\healthcare_data\billing\billing_payment_summary.txt | Risk: High (50)
+2026-04-21 20:53:47,202 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\sree\cloud_forensic_Nirmal\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_patient_records.csv | Risk: Medium (28)
+2026-04-21 20:53:47,202 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\sree\cloud_forensic_Nirmal\cloud_forensic_Nirmal\healthcare_data\EHR\ehr_case_summary_P001.txt | Risk: Low (10)
+2026-04-21 20:53:47,203 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\sree\cloud_forensic_Nirmal\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_report_P003_cardiac.txt | Risk: Low (10)
+2026-04-21 20:53:47,204 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\sree\cloud_forensic_Nirmal\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_records_2026.csv | Risk: High (68)
+2026-04-21 20:53:47,204 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\sree\cloud_forensic_Nirmal\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_drug_inventory.txt | Risk: High (50)
+2026-04-21 20:53:47,204 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\sree\cloud_forensic_Nirmal\cloud_forensic_Nirmal\healthcare_data\Surgery\surgery_report_P003_angioplasty.txt | Risk: High (50)
+2026-04-21 20:53:47,205 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\sree\cloud_forensic_Nirmal\cloud_forensic_Nirmal\healthcare_data\lab reports\lab_test_results_2026.csv | Risk: Medium (28)
+2026-04-21 20:53:47,205 - INFO - [OK] Scanned: C:\Users\nirma\OneDrive\Desktop\sree\cloud_forensic_Nirmal\cloud_forensic_Nirmal\healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv | Risk: High (68)
+2026-04-21 20:53:47,245 - INFO - === Scan Complete === Files: 10 | Critical: 0 | High: 5 | Duration: 0.05s
+2026-04-21 20:53:47,287 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:47] "GET /api/stats HTTP/1.1" 200 -
+2026-04-21 20:53:51,743 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:51] "GET /api/timeline HTTP/1.1" 200 -
+2026-04-21 20:53:53,034 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:53] "GET /api/scans HTTP/1.1" 200 -
+2026-04-21 20:53:54,839 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:54] "GET /api/logs HTTP/1.1" 200 -
+2026-04-21 20:53:56,975 - INFO - 127.0.0.1 - - [21/Apr/2026 20:53:56] "GET /api/stats HTTP/1.1" 200 -
+2026-04-21 20:54:24,399 - INFO - === Investigation Started === Case: HC-2026-001 | Dir: healthcare_data
+2026-04-21 20:54:24,400 - INFO - Files discovered: 10
+2026-04-21 20:54:24,405 - INFO - [OK] Scanned: healthcare_data\billing\billing_invoices_2026.csv | Risk: Medium (28)
+2026-04-21 20:54:24,405 - INFO - [OK] Scanned: healthcare_data\EHR\ehr_case_summary_P001.txt | Risk: Low (10)
+2026-04-21 20:54:24,405 - INFO - [OK] Scanned: healthcare_data\billing\billing_payment_summary.txt | Risk: High (50)
+2026-04-21 20:54:24,406 - INFO - [OK] Scanned: healthcare_data\lab reports\lab_test_results_2026.csv | Risk: Medium (28)
+2026-04-21 20:54:24,406 - INFO - [OK] Scanned: healthcare_data\Pharmacy\pharmacy_drug_inventory.txt | Risk: High (50)
+2026-04-21 20:54:24,407 - INFO - [OK] Scanned: healthcare_data\EHR\ehr_patient_records.csv | Risk: Medium (28)
+2026-04-21 20:54:24,407 - INFO - [OK] Scanned: healthcare_data\Pharmacy\pharmacy_prescriptions_2026.csv | Risk: High (68)
+2026-04-21 20:54:24,407 - INFO - [OK] Scanned: healthcare_data\lab reports\lab_report_P003_cardiac.txt | Risk: Low (10)
+2026-04-21 20:54:24,407 - INFO - [OK] Scanned: healthcare_data\Surgery\surgery_records_2026.csv | Risk: High (68)
+2026-04-21 20:54:24,408 - INFO - [OK] Scanned: healthcare_data\Surgery\surgery_report_P003_angioplasty.txt | Risk: High (50)
+2026-04-21 20:54:24,448 - INFO - === Scan Complete === Files: 10 | Critical: 0 | High: 5 | Duration: 0.05s

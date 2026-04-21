@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login — CyberForensics Healthcare SOC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-deep:   #040d1a;
+      --bg-panel:  rgba(10, 22, 40, 0.85);
+      --accent:    #00d4ff;
+      --accent2:   #0066ff;
+      --danger:    #ff3b5c;
+      --text:      #c8d8e8;
+      --text-dim:  #6a8098;
+      --border:    rgba(0, 212, 255, 0.15);
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg-deep);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* animated grid background */
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background-image:
+        linear-gradient(rgba(0,212,255,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,212,255,0.04) 1px, transparent 1px);
+      background-size: 40px 40px;
+      animation: gridScroll 20s linear infinite;
+      pointer-events: none;
+    }
+    @keyframes gridScroll { 0%{transform:translateY(0)} 100%{transform:translateY(40px)} }
+
+    /* ambient glow blobs */
+    .blob { position: fixed; border-radius: 50%; filter: blur(80px); pointer-events: none; }
+    .blob-1 {
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(0,102,255,0.18) 0%, transparent 70%);
+      top: -100px; left: -100px;
+      animation: blobMove1 12s ease-in-out infinite alternate;
+    }
+    .blob-2 {
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, rgba(0,212,255,0.12) 0%, transparent 70%);
+      bottom: -80px; right: -80px;
+      animation: blobMove2 15s ease-in-out infinite alternate;
+    }
+    @keyframes blobMove1 { 0%{transform:translate(0,0)} 100%{transform:translate(60px,80px)} }
+    @keyframes blobMove2 { 0%{transform:translate(0,0)} 100%{transform:translate(-50px,-60px)} }
+
+    .login-wrap {
+      position: relative; z-index: 10;
+      width: 100%; max-width: 440px;
+      padding: 16px;
+    }
+
+    .login-card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 48px 40px;
+      backdrop-filter: blur(24px);
+      box-shadow: 0 0 60px rgba(0,212,255,0.06), 0 30px 60px rgba(0,0,0,0.5);
+    }
+
+    .brand {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+    .brand-icon {
+      width: 64px; height: 64px;
+      background: linear-gradient(135deg, #0066ff22, #00d4ff22);
+      border: 1px solid rgba(0,212,255,0.3);
+      border-radius: 18px;
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: 26px; color: var(--accent);
+      margin-bottom: 16px;
+      box-shadow: 0 0 30px rgba(0,212,255,0.2);
+      animation: iconPulse 3s ease-in-out infinite;
+    }
+    @keyframes iconPulse {
+      0%,100%{ box-shadow:0 0 30px rgba(0,212,255,0.2); }
+      50%{     box-shadow:0 0 50px rgba(0,212,255,0.4); }
+    }
+    .brand-name {
+      font-size: 22px; font-weight: 700;
+      background: linear-gradient(90deg, #00d4ff, #0066ff);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 4px;
+    }
+    .brand-sub { font-size: 12px; color: var(--text-dim); letter-spacing: 1px; text-transform: uppercase; }
+
+    .case-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-top: 12px;
+      background: rgba(0,212,255,0.08);
+      border: 1px solid rgba(0,212,255,0.2);
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 11px; font-family: 'JetBrains Mono', monospace;
+      color: var(--accent); letter-spacing: 0.5px;
+    }
+
+    .form-title { font-size: 16px; font-weight: 600; color: var(--text); margin-bottom: 24px; }
+
+    .form-group { margin-bottom: 18px; }
+    .form-group label {
+      display: block; font-size: 12px; font-weight: 500;
+      color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+    .input-wrap { position: relative; }
+    .input-wrap i {
+      position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+      color: var(--text-dim); font-size: 14px; transition: color .2s;
+    }
+    .form-input {
+      width: 100%; padding: 12px 14px 12px 42px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      color: var(--text); font-family: inherit; font-size: 14px;
+      transition: border-color .2s, box-shadow .2s;
+      outline: none;
+    }
+    .form-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(0,212,255,0.1);
+    }
+    .form-input:focus + i,
+    .input-wrap:focus-within i { color: var(--accent); }
+
+    .error-msg {
+      background: rgba(255,59,92,0.1);
+      border: 1px solid rgba(255,59,92,0.3);
+      border-radius: 8px;
+      padding: 10px 14px;
+      color: #ff7b95; font-size: 13px;
+      margin-bottom: 18px;
+      display: flex; align-items: center; gap: 8px;
+    }
+
+    .btn-login {
+      width: 100%; padding: 13px;
+      background: linear-gradient(135deg, #0066ff, #00d4ff);
+      border: none; border-radius: 10px;
+      color: #fff; font-size: 15px; font-weight: 600;
+      cursor: pointer; font-family: inherit;
+      transition: opacity .2s, transform .15s, box-shadow .2s;
+      box-shadow: 0 4px 20px rgba(0,102,255,0.35);
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    .btn-login:hover { opacity: .92; transform: translateY(-1px); box-shadow: 0 8px 30px rgba(0,102,255,0.5); }
+    .btn-login:active { transform: translateY(0); }
+
+    .login-footer {
+      text-align: center; margin-top: 24px;
+      font-size: 12px; color: var(--text-dim);
+    }
+    .login-footer code {
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--accent); background: rgba(0,212,255,0.07);
+      padding: 2px 6px; border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <div class="login-wrap">
+    <div class="login-card">
+      <div class="brand">
+        <div class="brand-icon"><i class="fa-solid fa-shield-virus"></i></div>
+        <div class="brand-name">CyberForensics SOC</div>
+        <div class="brand-sub">Healthcare Breach Investigation Platform</div>
+        <div class="case-badge"><i class="fa-solid fa-briefcase"></i> PRJN26-148</div>
+      </div>
+
+      <p class="form-title">Sign in to your account</p>
+
+      {% if error %}
+      <div class="error-msg">
+        <i class="fa-solid fa-circle-exclamation"></i> {{ error }}
+      </div>
+      {% endif %}
+
+      <form method="POST" action="/login" autocomplete="on">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <div class="input-wrap">
+            <input type="text" id="username" name="username" class="form-input"
+                   placeholder="Enter your username" required autocomplete="username" />
+            <i class="fa-solid fa-user"></i>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <div class="input-wrap">
+            <input type="password" id="password" name="password" class="form-input"
+                   placeholder="Enter your password" required autocomplete="current-password" />
+            <i class="fa-solid fa-lock"></i>
+          </div>
+        </div>
+        <button type="submit" class="btn-login" id="btn-login">
+          <i class="fa-solid fa-right-to-bracket"></i> Authenticate
+        </button>
+      </form>
+
+      <div class="login-footer">
+        Credentials: <code>nirmal</code> / <code>admin</code>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('btn-login').addEventListener('click', function(e) {
+      this.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Authenticating...';
+    });
+  </script>
+</body>
+</html>

@@ -4,7 +4,7 @@ MONTHLY BILLING SUMMARY REPORT
 Report Period   : January - February 2026
 Generated On    : 2026-02-15
 Prepared By     : Billing Department
-Hospital        : City General Hospital & Affiliates
+Hospital        : City general Hospital & Affiliates
 ================================================
 
 REVENUE SUMMARY
